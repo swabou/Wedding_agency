@@ -1,6 +1,6 @@
 @mixin font-nav {
 	font-size: 18px;
-	font-weight: normal;
+	font-weight: 400;
 	line-height: 45px;
 }
 
@@ -94,5 +94,49 @@
 @mixin font-footer__link {
 	font-size: 14px;
 	font-weight: 400;
+	line-height: auto;
+}
+
+@mixin font-picture__subtitle--review {
+	font-size: 22px;
+	font-weight: 400;
+	line-height: 45px;
+}
+
+@mixin font-sprite {
+	font-size: 14px;
+	font-weight: 400;
+	font-style: italic;
+	line-height: 45px;
+}
+
+@mixin font-wishes__title {
+	font-size: 22px;
+	font-weight: 400;
+	line-height: 45px;
+}
+
+@mixin font-wishes__blockquote {
+	font-size: 18px;
+	font-weight: 400;
+	font-style: italic;
+	line-height: 24px;
+}
+
+@mixin font-table__name {
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 22px;
+}
+
+@mixin font-table__price {
+	font-size: 20px;
+	font-weight: 300;
+	line-height: auto;
+}
+
+@mixin font-order__item {
+	font-size: 16px;
+	font-weight: 300;
 	line-height: auto;
 }
