@@ -412,4 +412,5 @@ th {
 body {
   font-family: "OpenSans", Arial, Helvetica, sans-serif;
   background-color: #ffffff;
+  max-width: 1200px;
 }
