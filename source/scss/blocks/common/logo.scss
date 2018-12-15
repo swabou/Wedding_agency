@@ -1,0 +1,13 @@
+.logo {
+	margin: 0;
+
+	margin-right: 80px;
+}
+
+.logo__link {
+	@include font-logo;
+	color: $logo;
+
+	text-transform: uppercase;
+	text-decoration: none;
+}

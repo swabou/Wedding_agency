@@ -415,3 +415,92 @@ body {
   min-width: 1200px;
   box-sizing: border-box;
 }
+
+.wrap-header {
+  width: 100%;
+  box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.49);
+}
+
+.main-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 960px;
+  margin: 0 auto;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.nav-list {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  padding: 0;
+}
+
+.nav-list__item {
+  margin-right: 30px;
+}
+
+.nav-list__link {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 45px;
+  color: #937f7a;
+  text-decoration: none;
+}
+
+.logo {
+  margin: 0;
+  margin-right: 80px;
+}
+
+.logo__link {
+  font-size: 43px;
+  font-weight: 800;
+  font-style: italic;
+  line-height: 36px;
+  color: #734089;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.contact-phone {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.contact-phone__text {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 45px;
+  color: #937f7a;
+  margin: 0;
+}
+
+.contact-phone__number {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 45px;
+  margin: 0;
+}
+
+.contact-phone__uppercase {
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 45px;
+}
+
+.contact-phone__number,
+.contact-phone__uppercase {
+  color: #937f7a;
+}
+
+.contact-phone__text {
+  margin-right: 30px;
+}
+
+.contact-phone__img {
+  margin-right: 10px;
+}

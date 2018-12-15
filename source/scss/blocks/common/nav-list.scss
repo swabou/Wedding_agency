@@ -1,0 +1,18 @@
+.nav-list {
+	display: flex;
+	flex-direction: row;
+
+	list-style-type: none;
+
+	padding: 0;
+}
+
+.nav-list__item {
+	margin-right: 30px;
+}
+
+.nav-list__link {
+	@include font-nav;
+	color: $nav-link;
+	text-decoration: none;
+}

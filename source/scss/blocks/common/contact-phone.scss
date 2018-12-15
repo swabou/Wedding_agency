@@ -1,0 +1,34 @@
+.contact-phone {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.contact-phone__text {
+	@include font-nav;
+	color: $nav-link;
+
+	margin: 0;
+}
+
+.contact-phone__number {
+	@include font-tel__bold;
+	margin: 0;
+}
+
+.contact-phone__uppercase {
+	@include font-tel__uppercase;
+}
+
+.contact-phone__number,
+.contact-phone__uppercase {
+	color: $nav-link;
+}
+
+.contact-phone__text {
+	margin-right: 30px;
+}
+
+.contact-phone__img {
+	margin-right: 10px;
+}
