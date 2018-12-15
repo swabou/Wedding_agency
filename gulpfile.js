@@ -3,7 +3,7 @@ var sass = require('gulp-sass');
 var server = require('browser-sync');
 /*Task for Sass*/
 gulp.task('sass', function() { //Таск sass
-	return gulp.src('source/scss/**/*.scss') // Берем источник
+	return gulp.src('source/scss/**/style.scss') // Берем источник
 	.pipe(sass({outputStyle: 'expanded'}).on('error', sass.logError)) // Преобразуем Sass в CSS 
 	.pipe(gulp.dest('source/css')) // Выгружаем результат в папку css
 	.pipe(server.stream());
