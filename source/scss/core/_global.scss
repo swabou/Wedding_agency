@@ -2,4 +2,5 @@ body {
 	font-family: $font-default;
 	background-color: $background-color;
 	min-width: 1200px;
+	box-sizing: border-box;
 }
