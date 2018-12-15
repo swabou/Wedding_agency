@@ -410,5 +410,6 @@ th {
 }
 
 body {
-  font-family: OpenSans, sans-serif;
+  font-family: "OpenSans", Arial, Helvetica, sans-serif;
+  background-color: #ffffff;
 }
