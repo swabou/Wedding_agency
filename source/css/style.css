@@ -571,6 +571,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-bottom: 40px;
 }
 
 .portfolio__title {
@@ -587,8 +588,10 @@ body {
   padding-right: 106px;
   padding-top: 15px;
   padding-bottom: 15px;
+  margin-top: 20px;
   border-radius: 3px;
   text-decoration: none;
+  text-transform: uppercase;
 }
 
 .work-list {
@@ -598,4 +601,8 @@ body {
   padding-right: 10px;
   margin: 0 auto;
   list-style-type: none;
+}
+
+.card {
+  margin-right: 20px;
 }
