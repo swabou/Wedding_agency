@@ -564,3 +564,27 @@ body {
   padding-right: 45px;
   border-radius: 3px;
 }
+
+.portfolio {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.portfolio__title {
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 72px;
+  color: #734089;
+}
+
+.work-list {
+  display: flex;
+  width: 940px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin: 0 auto;
+  list-style-type: none;
+}
