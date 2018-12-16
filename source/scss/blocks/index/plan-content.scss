@@ -1,0 +1,6 @@
+.plan-content__text {
+	margin: 0;
+
+	@include font-plan__text;
+	color: $plan-text;
+}

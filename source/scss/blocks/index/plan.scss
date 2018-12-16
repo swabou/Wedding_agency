@@ -1,11 +1,16 @@
 .plan {
-	width: 100%;
-	background-image: url('../img/planworks__img--main.jpg');
-	background-size: 100% 100%;
+	background-image: url("../img/index/planworks__img--main.jpg");
+	background-size: 100%;
 	background-repeat: no-repeat;
 	background-position: center;
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 
 .plan__headline {
+	@include main-heading;
 
+	margin: 0;
 }
