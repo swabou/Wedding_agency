@@ -10,3 +10,17 @@
 .portfolio__title {
 	@include main-heading;
 }
+
+.portfolio__link {
+	background-color: $picture-link;
+	color: $background-color;
+
+	padding-left: 106px;
+	padding-right: 106px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+
+	border-radius: 3px;
+
+	text-decoration: none;
+}

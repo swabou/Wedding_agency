@@ -580,6 +580,17 @@ body {
   color: #734089;
 }
 
+.portfolio__link {
+  background-color: #e4705b;
+  color: #ffffff;
+  padding-left: 106px;
+  padding-right: 106px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-radius: 3px;
+  text-decoration: none;
+}
+
 .work-list {
   display: flex;
   width: 940px;
