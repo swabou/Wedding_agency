@@ -504,3 +504,63 @@ body {
 .contact-phone__img {
   margin-right: 10px;
 }
+
+.main-picture {
+  width: 100%;
+  height: auto;
+  background-image: url("../img/index/main-picture.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.content-picture {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  padding-top: 83px;
+  padding-left: 130px;
+  padding-bottom: 150px;
+}
+
+.content-picture__headline {
+  font-size: 77px;
+  font-weight: 800;
+  font-style: italic;
+  line-height: 65px;
+  color: #734089;
+  margin: 0;
+}
+
+.content-picture__subtitle {
+  font-size: 19px;
+  font-weight: 800;
+  line-height: 69px;
+  color: #734089;
+  margin: 0;
+}
+
+.content-picture__desc {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 28px;
+  color: #ffffff;
+  text-transform: uppercase;
+  margin: 0;
+  margin-bottom: 40px;
+}
+
+.content-picture__link {
+  font-size: 14px;
+  font-weight: 300;
+  line-height: auto;
+  color: #ffffff;
+  background-color: #e4705b;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 45px;
+  padding-right: 45px;
+  border-radius: 3px;
+}
