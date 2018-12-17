@@ -1,0 +1,14 @@
+.denotation-artist__name,
+.denotation-artist__surname {
+	margin: 0;
+	color: $artist-name;
+	text-align: center;
+}
+
+.denotation-artist__name {
+	@include font-artists__name;
+}
+
+.denotation-artist__surname {
+	@include font-artists__surname;
+}

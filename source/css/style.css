@@ -1037,6 +1037,63 @@ body {
   color: #734089;
 }
 
+.artists .slick-track {
+  display: flex;
+}
+
 .slider-artists {
   max-width: 940px;
+  margin: 0;
+  padding: 0;
+}
+
+.slider-artists .slick-next,
+.slider-artists .slick-prev {
+  width: 28px;
+  height: 28px;
+}
+
+.slider-artists .slick-next::before {
+  content: url("../img/index/slider-artists__img--arrow-right.svg");
+}
+
+.slider-artists .slick-prev::before {
+  content: url("../img/index/slider-artists__img--arrow-left.svg");
+}
+
+.content-slide {
+  height: auto;
+}
+
+.content-slide__wrap {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.content-slide__specialty {
+  margin: 0;
+  text-align: center;
+}
+
+.denotation-artist__name,
+.denotation-artist__surname {
+  margin: 0;
+  color: #646464;
+  text-align: center;
+}
+
+.denotation-artist__name {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+}
+
+.denotation-artist__surname {
+  font-size: 16px;
+  font-weight: 400;
+  font-style: italic;
+  line-height: 20px;
 }

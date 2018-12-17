@@ -14,3 +14,7 @@
 .artists__headline {
 	@include main-heading;
 }
+
+.artists .slick-track {
+	display: flex;
+}
