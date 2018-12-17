@@ -1,6 +1,10 @@
 // _normalize 
 @import "libraries/normalize/_normalize.scss";
 
+// Slick-Slider
+@import "libraries/slick-slider/slick.scss";
+@import "libraries/slick-slider/slick-theme.scss";
+
 // core
 @import "core/_fonts.scss";
 @import "core/_variables.scss";
