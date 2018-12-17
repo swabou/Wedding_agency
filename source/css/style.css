@@ -612,6 +612,7 @@ body {
   background-size: 100%;
   background-repeat: no-repeat;
   background-position: center;
+  padding-bottom: 75px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -625,10 +626,32 @@ body {
   margin: 0;
 }
 
+.plan-map {
+  min-width: 940px;
+  margin: 0 auto;
+}
+
 .plan-list {
   list-style-type: none;
   margin: 0;
   padding: 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+.plan-list__item {
+  display: flex;
+  align-items: center;
+}
+
+.plan-list__item::after {
+  content: url(../img/index/arrow-plan.png);
+  position: relative;
+  top: -15px;
+}
+
+.plan-list__item:last-child::after {
+  display: none;
 }
 
 .plan-content__text {
@@ -637,4 +660,25 @@ body {
   font-weight: 400;
   line-height: 20px;
   color: #4b334c;
+  max-width: 160px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.plan-content__text--coffee::before {
+  content: url("../img/index/planworks__img--1.png");
+}
+
+.plan-content__text--list::before {
+  content: url("../img/index/planworks__img--2.png");
+}
+
+.plan-content__text--love::before {
+  content: url("../img/index/planworks__img--3.png");
+}
+
+.plan-content__text--ring::before {
+  content: url("../img/index/planworks__img--4.png");
 }
