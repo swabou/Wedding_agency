@@ -529,6 +529,7 @@ body {
   font-style: italic;
   line-height: 65px;
   color: #734089;
+  text-transform: uppercase;
   margin: 0;
 }
 
@@ -546,6 +547,7 @@ body {
   line-height: 28px;
   color: #ffffff;
   text-transform: uppercase;
+  max-width: 320px;
   margin: 0;
   margin-bottom: 40px;
 }
@@ -648,6 +650,7 @@ body {
   content: url(../img/index/arrow-plan.png);
   position: relative;
   top: -15px;
+  left: 10px;
 }
 
 .plan-list__item:last-child::after {
