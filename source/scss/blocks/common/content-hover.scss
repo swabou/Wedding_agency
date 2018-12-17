@@ -1,0 +1,34 @@
+.content-hover {
+	display: none;
+}
+
+.content-hover__headline,
+.content-hover__name {
+	@include font-hover__headline;
+	color: $background-color;
+}
+
+.content-hover__desc {
+	@include font-hover__desc;
+	color: $background-color;
+
+	max-width: 220px;
+
+	text-align: center;
+}
+
+.content-hover__link {
+	@include border-gradient($quotes, $color-gradient);
+
+	@include font-picture__link;
+	color: $quotes;
+
+	padding-top: 12px;
+	padding-bottom: 12px;
+	padding-left: 30px;
+	padding-right: 30px;
+
+	border-radius: 3px;
+
+	text-decoration: none;
+}

@@ -13,6 +13,10 @@
 
 .plan__headline {
 	@include main-heading;
+	text-transform: uppercase;
 
 	margin: 0;
+
+	margin-top: 55px;
+	margin-bottom: 50px;
 }

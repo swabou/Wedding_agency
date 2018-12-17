@@ -609,6 +609,62 @@ body {
   margin-right: 20px;
 }
 
+.content-card {
+  position: relative;
+}
+
+.content-card:hover {
+  overflow: hidden;
+}
+
+.content-card:hover .content-hover {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 300px;
+  width: 100%;
+  background-color: rgba(123, 107, 126, 0.7);
+}
+
+.content-hover {
+  display: none;
+}
+
+.content-hover__headline,
+.content-hover__name {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: auto;
+  color: #ffffff;
+}
+
+.content-hover__desc {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: auto;
+  color: #ffffff;
+  max-width: 220px;
+  text-align: center;
+}
+
+.content-hover__link {
+  box-shadow: 0 1px 0 0 rgba(244, 150, 136, 0.25), 0 -1px 0 0 rgba(252, 190, 184, 0.25), 1px 0 0 0 rgba(244, 150, 136, 0.25), -1px 0 0 0 rgba(252, 190, 184, 0.25), 1px -1px 0 0 rgba(248, 170, 160, 0.5), -1px 1px 0 0 rgba(248, 170, 160, 0.5), 1px 1px 0 0 rgba(240, 130, 111, 0.75), -1px -1px 0 0 rgba(255, 209, 208, 0.75);
+  font-size: 14px;
+  font-weight: 300;
+  line-height: auto;
+  color: #ffd1d0;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 30px;
+  padding-right: 30px;
+  border-radius: 3px;
+  text-decoration: none;
+}
+
 .plan {
   background-image: url("../img/index/planworks__img--main.jpg");
   background-size: 100%;
@@ -625,7 +681,10 @@ body {
   font-weight: 600;
   line-height: 72px;
   color: #734089;
+  text-transform: uppercase;
   margin: 0;
+  margin-top: 55px;
+  margin-bottom: 50px;
 }
 
 .plan-map {

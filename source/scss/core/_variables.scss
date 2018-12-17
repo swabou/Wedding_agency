@@ -4,6 +4,7 @@ $font-default: 'OpenSans', Arial, Helvetica, sans-serif;
 // COLORS
 $white: #ffffff;
 $brown: #937f7a;
+$dust: #7b6b7e;
 $gray: #646464;
 $gray--light: #937f7a;
 $purple: #734089;
@@ -19,7 +20,7 @@ $peach--dark: #e87561;
 $cream: #fdf8f4;
 $pink: #ffd1d0;
 $pink--dirty: #f0826f;
-$pink--soft: #eb9fc5;
+$pink--soft: #eb9fc5; 
 $tomato: #f54a42;
 $crimson: #e54b97;
 $eggplant: #755671;
@@ -33,9 +34,11 @@ $logo: $purple;
 $picture-link: $peach;
 $title: $purple--dark;
 $plan-text: $purple--deep-dark;
+$hover-works: $dust;
 $artist-name: $gray;
 $feature-link: $peach--soft;
 $background-drop: $cream;
+$color-gradient: $pink--dirty;
 $quotes: $pink;
 $footer-color: $purple--black;
 
