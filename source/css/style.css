@@ -1024,6 +1024,10 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  max-width: 940px;
+  margin: 0 auto;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .artists__headline {
@@ -1031,4 +1035,8 @@ body {
   font-weight: 600;
   line-height: 72px;
   color: #734089;
+}
+
+.slider-artists {
+  max-width: 940px;
 }
