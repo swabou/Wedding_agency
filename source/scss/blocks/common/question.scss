@@ -10,7 +10,21 @@
 
 	margin: 0 auto;
 
+	padding-top: 60px;
+
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+}
+
+.question__headline {
+	@include font-question__headline;
+	color: $background-color;
+
+	margin: 0;
+}
+
+.question__subtitle {
+	@include font-plan__text;
+	color: $background-color;
 }
