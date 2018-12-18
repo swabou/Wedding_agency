@@ -1097,3 +1097,16 @@ body {
   font-style: italic;
   line-height: 20px;
 }
+
+.question {
+  width: 100%;
+  background: linear-gradient(rgba(142, 104, 139, 0.7), rgba(142, 104, 139, 0.7)), url("../img/index/question-form__img--background.jpg");
+}
+
+.question__wrap {
+  max-width: 940px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
