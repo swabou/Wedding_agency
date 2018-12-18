@@ -1,0 +1,13 @@
+.main-footer {
+	background-color: $footer-color;
+}
+
+.main-footer__wrap {
+	max-width: 940px;
+
+	margin: 0 auto;
+
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}

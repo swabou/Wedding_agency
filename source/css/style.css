@@ -940,6 +940,38 @@ body {
   text-decoration: none;
 }
 
+.main-footer {
+  background-color: #2f292f;
+}
+
+.main-footer__wrap {
+  max-width: 940px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-nav .nav-list__link {
+  color: #ffffff;
+}
+
+.social-list {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  display: flex;
+}
+
+.social-list__item {
+  margin-right: 25px;
+}
+
+.social-list__link:hover .social-list__img {
+  fill: #155e8b;
+  transition: all 0.5s;
+}
+
 .plan {
   background-image: url("../img/index/planworks__img--main.jpg");
   background-size: 100%;
@@ -1125,4 +1157,51 @@ body {
   font-weight: 400;
   line-height: 20px;
   color: #ffffff;
+}
+
+.question-form {
+  min-width: 300px;
+}
+
+.question-form__fieldset {
+  border: none;
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+}
+
+.question-form__line {
+  margin: 0;
+  margin-bottom: 15px;
+}
+
+.question-form__input {
+  border-radius: 3px;
+  border: none;
+  width: -webkit-fill-available;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  outline: none;
+}
+
+.question-form__input::placeholder {
+  font-size: 14px;
+  font-weight: 300;
+  line-height: auto;
+  color: #646464;
+}
+
+.question-form__btn {
+  font-size: 14px;
+  font-weight: 300;
+  line-height: auto;
+  color: #ffffff;
+  background-color: #e4705b;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 3px;
+  margin-bottom: 50px;
 }

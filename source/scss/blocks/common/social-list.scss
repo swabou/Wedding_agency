@@ -1,0 +1,17 @@
+.social-list {
+	padding: 0;
+	margin: 0;
+
+	list-style-type: none;
+
+	display: flex;
+}
+
+.social-list__item {
+	margin-right: 25px;
+}
+
+.social-list__link:hover .social-list__img {
+	fill: $hover-icon;
+	transition: all 0.5s;
+}
