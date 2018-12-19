@@ -1,10 +1,12 @@
 .work-list {
 	display: flex;
+	flex-wrap: wrap;
 
-	width: 940px;
-	padding-left: 10px;
-	padding-right: 10px;
-	margin: 0 auto;
+	padding: 0;
 
 	list-style-type: none;
+}
+
+.work-list__item:nth-of-type(3n) {
+	margin: 0;
 }

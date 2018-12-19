@@ -1,0 +1,23 @@
+.content-presentation__headline,
+.content-presentation__subtitle,
+.content-presentation__desc {
+	margin: 0;
+}
+
+.content-presentation__headline {
+	@include font-title;
+	color: $background-color;
+}
+
+.content-presentation__subtitle {
+	@include font-wishes__title;
+	color: $feature-link;
+}
+
+.content-presentation__desc {
+	max-width: 320px;
+	color: $background-color;
+	@include font-plan__text;
+
+	margin-bottom: 20px;
+}
