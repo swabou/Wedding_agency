@@ -3,6 +3,10 @@
 	background-size: 100%;
 	background-position: center;
 	background-repeat: no-repeat;
+
+	&--review {
+		background-image: url("../img/review/main-picture__review.jpg");
+	}
 }
 
 .presentation__wrap {
@@ -11,7 +15,7 @@
 	align-items: flex-start;
 }
 
-.presentation__item--works {
+.presentation__item {
 	display: flex;
 	flex-direction: column;
 	align-items: flex-end;

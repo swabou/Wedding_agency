@@ -1226,13 +1226,17 @@ body {
   background-repeat: no-repeat;
 }
 
+.presentation--review {
+  background-image: url("../img/review/main-picture__review.jpg");
+}
+
 .presentation__wrap {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
 }
 
-.presentation__item--works {
+.presentation__item {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
