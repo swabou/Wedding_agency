@@ -1274,6 +1274,102 @@ body {
 .service-container {
   max-width: 940px;
   margin: 0 auto;
+  margin-top: 40px;
   padding-left: 10px;
   padding-right: 10px;
+}
+
+.service-list {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.service-list__item {
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.service-list__item:nth-of-type(2n) {
+  margin-right: 0;
+}
+
+.service-content {
+  width: 460px;
+  height: 300px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.service-content--wedding-key {
+  background-image: url("../img/service/service__img.png");
+}
+
+.service-content--sentence {
+  background-image: url("../img/service/service__img--1.png");
+}
+
+.service-content--party {
+  background-image: url("../img/service/service__img--2.png");
+}
+
+.service-content--travel {
+  background-image: url("../img/service/service__img--3.png");
+}
+
+.service-content--anniversary {
+  background-image: url("../img/service/service__img--4.png");
+}
+
+.service-content--other {
+  background-image: url("../img/service/service__img--5.png");
+}
+
+.service-content__headline {
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 72px;
+  color: #ffffff;
+  margin: 0;
+}
+
+.service-content__desc {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  color: #ffffff;
+  margin: 0;
+  margin-bottom: 20px;
+  max-width: 320px;
+  text-align: center;
+}
+
+.service-content__link {
+  box-shadow: 0 1px 0 0 rgba(244, 150, 136, 0.25), 0 -1px 0 0 rgba(252, 190, 184, 0.25), 1px 0 0 0 rgba(244, 150, 136, 0.25), -1px 0 0 0 rgba(252, 190, 184, 0.25), 1px -1px 0 0 rgba(248, 170, 160, 0.5), -1px 1px 0 0 rgba(248, 170, 160, 0.5), 1px 1px 0 0 rgba(240, 130, 111, 0.75), -1px -1px 0 0 rgba(255, 209, 208, 0.75);
+  font-size: 14px;
+  font-weight: 300;
+  line-height: auto;
+  color: #ffd1d0;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 30px;
+  padding-right: 30px;
+  border-radius: 3px;
+  text-decoration: none;
+}
+
+.service-content__link:hover {
+  font-size: 14px;
+  font-weight: 300;
+  line-height: auto;
+  color: #ffffff;
+  background-color: #e4705b;
 }
