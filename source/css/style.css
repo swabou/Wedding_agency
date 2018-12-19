@@ -1270,3 +1270,10 @@ body {
   line-height: 20px;
   margin-bottom: 20px;
 }
+
+.service-container {
+  max-width: 940px;
+  margin: 0 auto;
+  padding-left: 10px;
+  padding-right: 10px;
+}
