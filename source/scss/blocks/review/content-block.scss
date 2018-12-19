@@ -1,0 +1,11 @@
+.content-block__wrap-content {
+	display: flex;
+	flex-direction: column;
+
+	margin-left: 20px;
+}
+
+.content-block__title {
+	@include font-wishes__title;
+	color: $title;
+}
