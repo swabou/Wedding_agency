@@ -1,3 +1,4 @@
+// Works
 .content-presentation__headline,
 .content-presentation__subtitle,
 .content-presentation__desc {
@@ -20,4 +21,21 @@
 	@include font-plan__text;
 
 	margin-bottom: 20px;
+}
+
+// Review
+.presentation__item--review .content-presentation__headline {
+	@include main-heading;
+	margin-top: 100px;
+	margin-bottom: 40px;
+}
+
+.presentation__item--review .content-presentation__subtitle {
+	color: $picture-link;
+}
+.presentation__item--review .content-presentation__desc {
+	@include font-plan__text;
+	color: $plan-text;
+
+	max-width: 350px;
 }
