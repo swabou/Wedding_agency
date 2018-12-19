@@ -1,0 +1,12 @@
+.review {
+	display: flex;
+	flex-direction: column;
+}
+
+.review__headline {
+	@include main-heading;
+	text-align: center;
+
+	margin: 0;
+	margin-top: 55px;
+}

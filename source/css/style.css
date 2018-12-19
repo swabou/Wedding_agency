@@ -855,6 +855,7 @@ body {
   font-size: 28px;
   font-weight: 600;
   line-height: 72px;
+  text-transform: uppercase;
   color: #734089;
 }
 
@@ -1000,6 +1001,7 @@ body {
   font-size: 28px;
   font-weight: 600;
   line-height: 72px;
+  text-transform: uppercase;
   color: #734089;
   text-transform: uppercase;
   margin: 0;
@@ -1079,6 +1081,7 @@ body {
   font-size: 28px;
   font-weight: 600;
   line-height: 72px;
+  text-transform: uppercase;
   color: #734089;
 }
 
@@ -1279,6 +1282,7 @@ body {
   font-size: 28px;
   font-weight: 600;
   line-height: 72px;
+  text-transform: uppercase;
   color: #734089;
   margin-top: 100px;
   margin-bottom: 40px;
@@ -1397,4 +1401,31 @@ body {
   line-height: auto;
   color: #ffffff;
   background-color: #e4705b;
+}
+
+.review {
+  display: flex;
+  flex-direction: column;
+}
+
+.review__headline {
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 72px;
+  text-transform: uppercase;
+  color: #734089;
+  text-align: center;
+  margin: 0;
+  margin-top: 55px;
+}
+
+.feedback {
+  display: flex;
+  flex-direction: row;
+  max-width: 940px;
+  margin: 0 auto;
+  padding-right: 10px;
+  padding-left: 10px;
+  display: flex;
+  flex-direction: row;
 }
