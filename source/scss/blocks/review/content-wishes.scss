@@ -1,0 +1,32 @@
+.content-wishes__title {
+	@include font-wishes__title;
+	color: $title;
+
+	margin: 0;
+	margin-bottom: 60px;
+}
+
+.content-wishes__blockquote {
+	@include font-wishes__blockquote;
+	color: $artist-name;
+
+	margin: 0;
+
+}
+
+.content-wishes__quote::before {
+	content: url("../img/review/quotes.png");
+
+	position: relative;
+	top: 3px;
+	float: left;
+	padding-right: 10px;
+}
+
+.content-wishes__quote::after {
+	content: url("../img/review/quotes.png");
+
+	position: relative;
+	top: 18px;
+	padding-left: 10px;
+}

@@ -1429,3 +1429,40 @@ body {
   display: flex;
   flex-direction: row;
 }
+
+.feedback__wishes {
+  margin-left: 20px;
+}
+
+.content-wishes__title {
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 45px;
+  color: #765474;
+  margin: 0;
+  margin-bottom: 60px;
+}
+
+.content-wishes__blockquote {
+  font-size: 18px;
+  font-weight: 400;
+  font-style: italic;
+  line-height: 24px;
+  color: #646464;
+  margin: 0;
+}
+
+.content-wishes__quote::before {
+  content: url("../img/review/quotes.png");
+  position: relative;
+  top: 3px;
+  float: left;
+  padding-right: 10px;
+}
+
+.content-wishes__quote::after {
+  content: url("../img/review/quotes.png");
+  position: relative;
+  top: 18px;
+  padding-left: 10px;
+}
