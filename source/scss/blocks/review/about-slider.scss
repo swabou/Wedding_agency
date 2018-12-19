@@ -1,0 +1,22 @@
+.about-slider {
+	width: 940px;
+	margin: 0 auto;
+}
+
+.about-slider .slick-next,
+.about-slider .slick-prev {
+	width: 28px;
+	height: 28px;
+}
+
+.about-slider .slick-prev {
+	left: -35px;
+}
+
+.about-slider .slick-next::before {
+	content: url("../img/index/slider-artists__img--arrow-right.svg");
+}
+
+.about-slider .slick-prev::before {
+	content: url("../img/index/slider-artists__img--arrow-left.svg");
+}
