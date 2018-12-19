@@ -1489,7 +1489,6 @@ body {
   padding-bottom: 35px;
   display: flex;
   flex-direction: row;
-  border: 1px solid red;
 }
 
 .content-block__wrap-content {
@@ -1498,9 +1497,31 @@ body {
   margin-left: 20px;
 }
 
+.content-block__wrap-content--order {
+  order: -1;
+  margin-left: 0;
+  margin-right: 20px;
+}
+
 .content-block__title {
   font-size: 22px;
   font-weight: 400;
   line-height: 45px;
   color: #765474;
+  margin: 0;
+}
+
+.content-block__text {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #646464;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.content-block__text::after {
+  content: url("../img/review/decoration__img.png");
+  margin-top: 20px;
 }
