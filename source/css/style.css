@@ -1441,10 +1441,18 @@ body {
 .feedback__wrap {
   display: flex;
   flex-direction: row;
+  margin-bottom: 60px;
 }
 
 .feedback__wishes {
   margin-left: 20px;
+}
+
+.feedback__wishes--video {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
 }
 
 .content-wishes__title {
@@ -1486,6 +1494,27 @@ body {
 
 .content-wishes__quote--video::after {
   content: url("../img/review/quote-white.png");
+}
+
+.content-wishes__button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-radius: 3px;
+  background-color: #e4705b;
+  margin-top: 20px;
+  padding: 15px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: auto;
+  color: #ffffff;
+}
+
+.content-wishes__text {
+  margin: 0;
+  margin-left: 10px;
 }
 
 .about {

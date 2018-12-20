@@ -19,8 +19,17 @@
 .feedback__wrap {
 	display: flex;
 	flex-direction: row;
+
+	margin-bottom: 60px;
 }
 
 .feedback__wishes {
 	margin-left: 20px;
+
+	&--video {
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-end;
+		align-items: flex-start;
+	}
 }

@@ -38,3 +38,31 @@
 .content-wishes__quote--video::after {
 	content: url("../img/review/quote-white.png");
 }
+
+.content-wishes__button {
+
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+
+	border-radius: 3px;
+
+	background-color: $picture-link;
+
+	margin-top: 20px;
+	
+
+	padding: 15px;
+
+	text-decoration: none;
+	text-transform: uppercase;
+
+	@include font-picture__link;
+	color: $background-color;
+}
+
+.content-wishes__text {
+	margin: 0;
+
+	margin-left: 10px;
+}
