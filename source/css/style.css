@@ -1691,8 +1691,21 @@ body {
 
 .container-link__item {
   max-width: 190px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   color: #ffd1d0;
   font-size: 16px;
   font-weight: 400;
   line-height: 20px;
+}
+
+.container-link__item--left::before {
+  content: url("../img/review/arrow__link--left.svg");
+  margin-right: 20px;
+}
+
+.container-link__item--right::after {
+  content: url("../img/review/arrow__link--right.svg");
+  margin-left: 20px;
 }
