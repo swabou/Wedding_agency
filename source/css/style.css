@@ -1679,3 +1679,20 @@ body {
   width: 100%;
   background-color: #ffd1d0;
 }
+
+.container-link {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 940px;
+  margin: 0 auto;
+  padding-bottom: 25px;
+}
+
+.container-link__item {
+  max-width: 190px;
+  color: #ffd1d0;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+}
