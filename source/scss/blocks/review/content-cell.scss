@@ -1,0 +1,51 @@
+.content-cell__color {
+	
+	display: block;
+	width: 20px;
+	height: 20px;
+	border-radius: 40%;
+
+	margin-right: 12px;
+
+	&--tomato {
+		background-color: $color-tomato;
+	}
+
+	&--pink-dirty {
+		background-color: $color-gradient;
+	}
+
+	&--pink {
+		background-color: $quotes;
+	}
+
+	&--pink-soft {
+		background-color: $color-pink-soft;
+	}
+
+	&--crimson {
+		background-color: $color-crimson;
+	}
+
+	&--eggplant {
+		background-color: $color-eggplant;
+	}
+
+	&--eggplant-dark {
+		background-color: $color-eggplant--dark;
+	}
+
+	&--emerald {
+		background-color: $color-emerald;
+	}
+}
+
+.content-cell__name {
+	@include font-table__name;
+	color: $color-eggplant;
+}
+
+.content-cell__price {
+	@include font-table__price;
+	color: $color-eggplant;
+}
