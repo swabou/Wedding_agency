@@ -1419,6 +1419,10 @@ body {
   margin-top: 55px;
 }
 
+.review__headline--video {
+  margin-bottom: 60px;
+}
+
 .feedback {
   display: flex;
   flex-direction: row;
@@ -1474,6 +1478,14 @@ body {
   position: relative;
   top: 18px;
   padding-left: 10px;
+}
+
+.content-wishes__quote--video::before {
+  content: url("../img/review/quote-white.png");
+}
+
+.content-wishes__quote--video::after {
+  content: url("../img/review/quote-white.png");
 }
 
 .about {
