@@ -1717,6 +1717,33 @@ body {
   margin: 0 auto;
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.feature-nav__title {
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 72px;
+  text-transform: uppercase;
+  color: #734089;
+}
+
+.feature-nav__item {
+  text-decoration: none;
+  color: #f3b8ad;
+  max-width: 140px;
+  display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.feature-nav__item--left::before {
+  content: url("../img/review/arrow__link--left.svg");
+  margin-right: 20px;
+}
+
+.feature-nav__item--right::after {
+  content: url("../img/review/arrow__link--right.svg");
+  margin-left: 20px;
 }
