@@ -1,0 +1,13 @@
+.content-block {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.content-block__container {
+	max-width: 300px;
+}
+
+.content-block__desc {
+	margin: 0;
+}
