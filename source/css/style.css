@@ -1709,3 +1709,14 @@ body {
   content: url("../img/review/arrow__link--right.svg");
   margin-left: 20px;
 }
+
+.feature-nav {
+  width: 960px;
+  padding-right: 10px;
+  padding-left: 10px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
