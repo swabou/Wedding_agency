@@ -13,9 +13,3 @@ $('.about-slider').slick({
 });
 
 // Accordion
-$(document).ready(function(){
-    $(".list-action__name").click(function(){
-        $(".drop-down").slideToggle("slow");
-        return false;
-    });
-});
