@@ -4,6 +4,8 @@
 
 	@include font-plan__text;
 	color: $title;
+
+	cursor: pointer;
 }
 
 .list-action__item {
