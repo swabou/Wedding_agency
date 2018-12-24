@@ -1808,6 +1808,10 @@ body {
   margin: 0;
 }
 
+.drop-down {
+  display: none;
+}
+
 .list-action__name {
   border-bottom: 1px dotted #765474;
   width: fit-content;
