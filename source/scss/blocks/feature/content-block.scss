@@ -1,11 +1,15 @@
 .content-block {
 	display: flex;
-	justify-content: center;
 	align-items: center;
+
+	min-width: 460px;
 }
 
-.content-block__container {
+.content-block__container,
+.content-block__container-list {
 	max-width: 300px;
+
+	margin-left: 10px;
 }
 
 .content-block__desc {
