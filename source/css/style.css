@@ -1828,3 +1828,9 @@ body {
   line-height: auto;
   color: #765474;
 }
+
+.list-action__name:focus ~ .drop-down,
+.list-action__name:active ~ .drop-down,
+.drop-down:hover {
+  display: block;
+}

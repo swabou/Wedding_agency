@@ -12,3 +12,9 @@
 	@include font-footer__link;
 	color: $title;
 }
+
+.list-action__name:focus ~ .drop-down, 
+.list-action__name:active ~ .drop-down, 
+.drop-down:hover { 
+   display: block; 
+}
