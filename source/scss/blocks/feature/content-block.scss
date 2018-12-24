@@ -12,6 +12,14 @@
 	margin-left: 10px;
 }
 
+.content-block__name {
+	@include font-picture__subtitle--review;
+	color: $title;
+}
+
 .content-block__desc {
+	@include font-plan__text;
+	color: $title;
 	margin: 0;
+
 }

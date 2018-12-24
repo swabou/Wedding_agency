@@ -1,0 +1,12 @@
+.list-action__name {
+	border-bottom: 1px dotted $title;
+	width: fit-content;
+
+	@include font-plan__text;
+	color: $title;
+}
+
+.list-action__item {
+	@include font-footer__link;
+	color: $title;
+}
