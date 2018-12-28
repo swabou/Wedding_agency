@@ -16,7 +16,6 @@
  * 3. Corrects text resizing oddly in IE 6/7 when body `font-size` is set using
  *  `em` units.
  */
-@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800,800i");
 html {
   font-family: sans-serif;
   /* 1 */
@@ -682,6 +681,11 @@ th {
 .slick-dots li.slick-active button:before {
   color: black;
   opacity: 0.75;
+}
+
+@font-face {
+  font-family: 'OpenSans';
+  src: local("Open Sans"), url("../fonts/opensans.woff2") format("woff2"), local("Open Sans"), url("../fonts/opensans.woff") format("woff"), local("Open Sans"), url("../fonts/opensans.ttf") format("ttf"), local("Open Sans"), url("../fonts/opensansbold.woff2") format("woff2"), local("Open Sans"), url("../fonts/opensansbold.woff") format("woff"), local("Open Sans"), url("../fonts/opensansbold.ttf") format("ttf"), local("Open Sans"), url("../fonts/opensansbolditalic.woff2") format("woff2"), local("Open Sans"), url("../fonts/opensansbolditalic.woff") format("woff"), local("Open Sans"), url("../fonts/opensansbolditalic.ttf") format("ttf"), local("Open Sans"), url("../fonts/opensansextrabold.woff2") format("woff2"), local("Open Sans"), url("../fonts/opensansextrabold.woff") format("woff"), local("Open Sans"), url("../fonts/opensansextrabold.ttf") format("ttf"), local("Open Sans"), url("../fonts/opensansextrabolditalic.woff2") format("woff2"), local("Open Sans"), url("../fonts/opensansextrabolditalic.woff") format("woff"), local("Open Sans"), url("../fonts/opensansextrabolditalic.ttf") format("ttf"), local("Open Sans"), url("../fonts/opensansitalic.woff2") format("woff2"), local("Open Sans"), url("../fonts/opensansitalic.woff") format("woff"), local("Open Sans"), url("../fonts/opensansitalic.ttf") format("ttf"), local("Open Sans"), url("../fonts/opensanslight.woff2") format("woff2"), local("Open Sans"), url("../fonts/opensanslight.woff") format("woff"), local("Open Sans"), url("../fonts/opensanslight.ttf") format("ttf"), local("Open Sans"), url("../fonts/opensanslightitalic.woff2") format("woff2"), local("Open Sans"), url("../fonts/opensanslightitalic.woff") format("woff"), local("Open Sans"), url("../fonts/opensanslightitalic.ttf") format("ttf"), local("Open Sans"), url("../fonts/opensanssemibold.woff2") format("woff2"), local("Open Sans"), url("../fonts/opensanssemibold.woff") format("woff"), local("Open Sans"), url("../fonts/opensanssemibold.ttf") format("ttf"), local("Open Sans"), url("../fonts/opensanssemibolditalic.woff2") format("woff2"), local("Open Sans"), url("../fonts/opensanssemibolditalic.woff") format("woff"), local("Open Sans"), url("../fonts/opensanssemibolditalic.ttf") format("ttf");
 }
 
 body {
