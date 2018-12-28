@@ -2,6 +2,10 @@
 	position: relative;
 }
 
+.content-card__img {
+	display: block;
+}
+
 .content-card:hover {
 	overflow: hidden;
 }
@@ -17,7 +21,7 @@
 	left: 0;
 	top: 0;
 
-	height: 300px;
+	height: 100%;
 	width: 100%;
 
 	background-color: rgba(123, 107, 126, 0.7);
