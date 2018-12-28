@@ -683,48 +683,6 @@ th {
   opacity: 0.75;
 }
 
-@font-face {
-  font-family: 'Open Sans';
-  src: local("Open Sans"), url("../fonts/opensans.woff2") format("woff2"), local("Open Sans"), url("../fonts/opensans.woff") format("woff"), local("Open Sans"), url("../fonts/opensans.ttf") format("ttf");
-  font-weight: 400;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Open Sans';
-  src: local("Open Sans"), url("../fonts/opensansbold.woff2") format("woff2"), local("Open Sans"), url("../fonts/opensansbold.woff") format("woff"), local("Open Sans"), url("../fonts/opensansbold.ttf") format("ttf");
-  font-weight: 700;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Open Sans';
-  src: local("Open Sans"), url("../fonts/opensansextrabold.woff2") format("woff2"), local("Open Sans"), url("../fonts/opensansextrabold.woff") format("woff"), local("Open Sans"), url("../fonts/opensansextrabold.ttf") format("ttf");
-  font-weight: 800;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Open Sans';
-  src: local("Open Sans"), url("../fonts/opensansitalic.woff2") format("woff2"), local("Open Sans"), url("../fonts/opensansitalic.woff") format("woff"), local("Open Sans"), url("../fonts/opensansitalic.ttf") format("ttf");
-  font-weight: 400;
-  font-style: italic;
-}
-
-@font-face {
-  font-family: 'Open Sans';
-  src: local("Open Sans"), url("../fonts/opensanslight.woff2") format("woff2"), local("Open Sans"), url("../fonts/opensanslight.woff") format("woff"), local("Open Sans"), url("../fonts/opensanslight.ttf") format("ttf");
-  font-weight: 300;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Open Sans';
-  src: local("Open Sans"), url("../fonts/opensanssemibold.woff2") format("woff2"), local("Open Sans"), url("../fonts/opensanssemibold.woff") format("woff"), local("Open Sans"), url("../fonts/opensanssemibold.ttf") format("ttf");
-  font-weight: 600;
-  font-style: normal;
-}
-
 body {
   font-family: "Open Sans", Arial, Helvetica, sans-serif;
   background-color: #ffffff;
