@@ -5,6 +5,10 @@
 .question-form__fieldset {
 	border: none;
 
+	-webkit-display: flex;
+	-moz-display: flex;
+	-ms-display: flex;
+	-o-display: flex;
 	display: flex;
 	flex-direction: column;
 
