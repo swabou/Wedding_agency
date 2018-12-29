@@ -1,186 +1,186 @@
 @mixin font-nav {
-	font-size: 18px;
-	font-weight: 400;
-	line-height: 21px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
 }
 
 @mixin font-logo {
-	font-size: 43px;
-	font-weight: 800;
-	font-style: italic;
-	line-height: 48px;
+    font-size: 43px;
+    font-weight: 800;
+    font-style: italic;
+    line-height: 48px;
 }
 
 @mixin font-tel__bold {
-	font-size: 18px;
-	font-weight: 700;
-	line-height: 21px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21px;
 }
 
 @mixin font-tel__uppercase {
-	font-size: 25px;
-	font-weight: 700;
-	line-height: 21px;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 21px;
 }
 
 @mixin font-picture__headline {
-	font-size: 77px;
-	font-weight: 800;
-	font-style: italic;
-	line-height: 61px;
+    font-size: 77px;
+    font-weight: 800;
+    font-style: italic;
+    line-height: 61px;
 }
 
 @mixin font-picture__subtitle {
-	font-size: 19px;
-	font-weight: 800;
-	line-height: 21px;
+    font-size: 19px;
+    font-weight: 800;
+    line-height: 21px;
 }
 
 @mixin font-picture__desc {
-	font-size: 18px;
-	font-weight: 600;
-	line-height: 21px;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 21px;
 }
 
 @mixin font-picture__link {
-	font-size: 14px;
-	font-weight: 300;
-	line-height: 12px;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 12px;
 }
 
 @mixin font-title {
-	font-size: 28px;
-	font-weight: 600;
-	line-height: 24px;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 24px;
 }
 
 @mixin font-hover__headline {
-	font-size: 18px;
-	font-weight: 600;
-	line-height: 21px;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 21px;
 }
 
 @mixin font-hover__desc {
-	font-size: 14px;
-	font-weight: 600;
-	line-height: 16px;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 16px;
 }
 
 @mixin font-plan__text {
-	font-size: 16px;
-	font-weight: 400;
-	line-height: 18px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18px;
 }
 
 @mixin font-artists__name {
-	font-size: 16px;
-	font-weight: 700;
-	line-height: 18px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 18px;
 }
 
 @mixin font-artists__surname {
-	font-size: 16px;
-	font-weight: 400;
-	font-style: italic;
-	line-height: 18px;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: italic;
+    line-height: 18px;
 }
 
 @mixin font-question__headline {
-	font-size: 28px;
-	font-weight: 600;
-	line-height: 36px;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 36px;
 }
 
 @mixin font-footer__link {
-	font-size: 14px;
-	font-weight: 400;
-	line-height: 16px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
 }
 
 @mixin font-picture__subtitle--review {
-	font-size: 22px;
-	font-weight: 400;
-	line-height: 36px;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 36px;
 }
 
 @mixin font-sprite {
-	font-size: 14px;
-	font-weight: 400;
-	font-style: italic;
-	line-height: 16px;
+    font-size: 14px;
+    font-weight: 400;
+    font-style: italic;
+    line-height: 16px;
 }
 
 @mixin font-wishes__title {
-	font-size: 22px;
-	font-weight: 400;
-	line-height: 21px;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 21px;
 }
 
 @mixin font-wishes__blockquote {
-	font-size: 18px;
-	font-weight: 400;
-	font-style: italic;
-	line-height: 21px;
+    font-size: 18px;
+    font-weight: 400;
+    font-style: italic;
+    line-height: 21px;
 }
 
 @mixin font-table__name {
-	font-size: 18px;
-	font-weight: 400;
-	line-height: 21px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
 }
 
 @mixin font-table__price {
-	font-size: 20px;
-	font-weight: 300;
-	line-height: 21px;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 21px;
 }
 
 @mixin font-order__item {
-	font-size: 16px;
-	font-weight: 300;
-	line-height: 18px;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 18px;
 }
 
 @mixin font-block__desc {
-	font-size: 14px;
-	font-weight: 400;
-	line-height: 16px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
 }
 
 @mixin font-action__item {
-	font-size: 14px;
-	font-weight: 400;
-	line-height: 16px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
 }
 
 @mixin main-heading {
-	font-size: 28px;
-	font-weight: 600;
-	line-height: 36px;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 36px;
 
-	text-transform: uppercase;
+    text-transform: uppercase;
 
-	color: #734089;
+    color: #734089;
 }
 
 @mixin border-gradient($from, $to, $weight: 0) {
-  $mix-main: mix($from, $to);
-  $mix-sub-from: mix($mix-main, $from);
-  $mix-sub-to: mix($mix-main, $to);
-  
-  box-shadow: 0 1px 0 $weight rgba($mix-sub-to, .25),
-              0 -1px 0 $weight rgba($mix-sub-from, .25),
-              1px 0 0 $weight rgba($mix-sub-to, .25),
-              -1px 0 0 $weight  rgba($mix-sub-from, .25),
-              1px -1px 0 $weight rgba($mix-main, .5),
-              -1px 1px 0 $weight rgba($mix-main, .5),
-              1px 1px 0 $weight rgba($to, .75),
-              -1px -1px 0 $weight rgba($from, .75);
+    $mix-main: mix($from, $to);
+    $mix-sub-from: mix($mix-main, $from);
+    $mix-sub-to: mix($mix-main, $to);
+
+    box-shadow: 0 1px 0 $weight rgba($mix-sub-to, .25),
+        0 -1px 0 $weight rgba($mix-sub-from, .25),
+        1px 0 0 $weight rgba($mix-sub-to, .25),
+        -1px 0 0 $weight rgba($mix-sub-from, .25),
+        1px -1px 0 $weight rgba($mix-main, .5),
+        -1px 1px 0 $weight rgba($mix-main, .5),
+        1px 1px 0 $weight rgba($to, .75),
+        -1px -1px 0 $weight rgba($from, .75);
 }
 
 @mixin width-content {
-	width: 960px;
-	margin: 0 auto;
-	padding-right: 10px;
-	padding-left: 10px;
+    width: 960px;
+    margin: 0 auto;
+    padding-right: 10px;
+    padding-left: 10px;
 }
