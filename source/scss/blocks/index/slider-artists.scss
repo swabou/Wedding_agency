@@ -1,20 +1,20 @@
 .slider-artists {
-	max-width: 940px;
+    max-width: 940px;
 
-	margin: 0;
-	padding: 0;
+    margin: 0;
+    padding: 0;
 }
 
 .slider-artists .slick-next,
 .slider-artists .slick-prev {
-	width: 28px;
-	height: 28px;
+    width: 28px;
+    height: 28px;
 }
 
 .slider-artists .slick-next::before {
-	content: url('../img/index/slider-artists__img--arrow-right.svg');
+    content: url('../img/index/slider-artists__img--arrow-right.svg');
 }
 
 .slider-artists .slick-prev::before {
-	content: url('../img/index/slider-artists__img--arrow-left.svg');
+    content: url('../img/index/slider-artists__img--arrow-left.svg');
 }

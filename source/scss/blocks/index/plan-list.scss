@@ -1,24 +1,24 @@
 .plan-list {
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 
-	display: flex;
-	justify-content: space-around;
+    display: flex;
+    justify-content: space-around;
 }
 
 .plan-list__item {
-	display: flex;
-	align-items: center;
+    display: flex;
+    align-items: center;
 
-	&::after {
-		content: url('../img/index/arrow-plan.png');
-		position: relative;
-		top: -15px;
-		left: 10px;
-	}
+    &::after {
+        content: url('../img/index/arrow-plan.png');
+        position: relative;
+        top: -15px;
+        left: 10px;
+    }
 }
 
 .plan-list__item:last-child::after {
-	display: none;
+    display: none;
 }

@@ -1,26 +1,26 @@
 .plan-content__text {
-	margin: 0;
+    margin: 0;
 
-	@include font-plan__text;
-	color: $plan-text;
+    @include font-plan__text;
+    color: $plan-text;
 
-	max-width: 160px;
-	
-	text-align: center;
+    max-width: 160px;
 
-	&--coffee::before {
-		content: url('../img/index/planworks__img--1.png');
-	}
+    text-align: center;
 
-	&--list::before {
-		content: url('../img/index/planworks__img--2.png');
-	}
+    &--coffee::before {
+        content: url('../img/index/planworks__img--1.png');
+    }
 
-	&--love::before {
-		content: url('../img/index/planworks__img--3.png');
-	}
+    &--list::before {
+        content: url('../img/index/planworks__img--2.png');
+    }
 
-	&--ring::before {
-		content: url('../img/index/planworks__img--4.png');
-	}
+    &--love::before {
+        content: url('../img/index/planworks__img--3.png');
+    }
+
+    &--ring::before {
+        content: url('../img/index/planworks__img--4.png');
+    }
 }

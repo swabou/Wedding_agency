@@ -1,15 +1,15 @@
 .artists {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
-	@include width-content;
+    @include width-content;
 }
 
 .artists__headline {
-	@include main-heading;
+    @include main-heading;
 }
 
 .artists .slick-track {
-	display: flex;
+    display: flex;
 }
