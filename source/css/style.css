@@ -714,7 +714,7 @@ body {
 .nav-list__link {
   font-size: 18px;
   font-weight: 400;
-  line-height: 45px;
+  line-height: 21px;
   color: #937f7a;
   text-decoration: none;
 }
@@ -728,7 +728,7 @@ body {
   font-size: 43px;
   font-weight: 800;
   font-style: italic;
-  line-height: 36px;
+  line-height: 48px;
   color: #734089;
   text-transform: uppercase;
   text-decoration: none;
@@ -743,7 +743,7 @@ body {
 .contact-phone__text {
   font-size: 18px;
   font-weight: 400;
-  line-height: 45px;
+  line-height: 21px;
   color: #937f7a;
   margin: 0;
 }
@@ -751,14 +751,14 @@ body {
 .contact-phone__number {
   font-size: 18px;
   font-weight: 700;
-  line-height: 45px;
+  line-height: 21px;
   margin: 0;
 }
 
 .contact-phone__uppercase {
   font-size: 25px;
   font-weight: 700;
-  line-height: 45px;
+  line-height: 21px;
 }
 
 .contact-phone__number,
@@ -797,7 +797,7 @@ body {
   font-size: 77px;
   font-weight: 800;
   font-style: italic;
-  line-height: 65px;
+  line-height: 61px;
   color: #734089;
   text-transform: uppercase;
   margin: 0;
@@ -816,7 +816,7 @@ body {
 .content-picture__desc {
   font-size: 18px;
   font-weight: 600;
-  line-height: 28px;
+  line-height: 21px;
   color: #ffffff;
   text-transform: uppercase;
   max-width: 320px;
@@ -828,7 +828,7 @@ body {
 .content-picture__link {
   font-size: 14px;
   font-weight: 300;
-  line-height: auto;
+  line-height: 12px;
   color: #ffffff;
   background-color: #e4705b;
   text-decoration: none;
@@ -853,7 +853,7 @@ body {
 .portfolio__title {
   font-size: 28px;
   font-weight: 600;
-  line-height: 72px;
+  line-height: 36px;
   text-transform: uppercase;
   color: #734089;
 }
@@ -927,14 +927,14 @@ body {
 .content-hover__name {
   font-size: 18px;
   font-weight: 600;
-  line-height: auto;
+  line-height: 21px;
   color: #ffffff;
 }
 
 .content-hover__desc {
   font-size: 14px;
   font-weight: 600;
-  line-height: auto;
+  line-height: 16px;
   color: #ffffff;
   max-width: 220px;
   text-align: center;
@@ -944,7 +944,7 @@ body {
   box-shadow: 0 1px 0 0 rgba(244, 150, 136, 0.25), 0 -1px 0 0 rgba(252, 190, 184, 0.25), 1px 0 0 0 rgba(244, 150, 136, 0.25), -1px 0 0 0 rgba(252, 190, 184, 0.25), 1px -1px 0 0 rgba(248, 170, 160, 0.5), -1px 1px 0 0 rgba(248, 170, 160, 0.5), 1px 1px 0 0 rgba(240, 130, 111, 0.75), -1px -1px 0 0 rgba(255, 209, 208, 0.75);
   font-size: 14px;
   font-weight: 300;
-  line-height: auto;
+  line-height: 12px;
   color: #ffd1d0;
   padding-top: 12px;
   padding-bottom: 12px;
@@ -1004,7 +1004,7 @@ body {
 .plan__headline {
   font-size: 28px;
   font-weight: 600;
-  line-height: 72px;
+  line-height: 36px;
   text-transform: uppercase;
   color: #734089;
   text-transform: uppercase;
@@ -1046,7 +1046,7 @@ body {
   margin: 0;
   font-size: 16px;
   font-weight: 400;
-  line-height: 20px;
+  line-height: 18px;
   color: #4b334c;
   max-width: 160px;
   text-align: center;
@@ -1084,7 +1084,7 @@ body {
 .artists__headline {
   font-size: 28px;
   font-weight: 600;
-  line-height: 72px;
+  line-height: 36px;
   text-transform: uppercase;
   color: #734089;
 }
@@ -1140,14 +1140,14 @@ body {
 .denotation-artist__name {
   font-size: 16px;
   font-weight: 700;
-  line-height: 20px;
+  line-height: 18px;
 }
 
 .denotation-artist__surname {
   font-size: 16px;
   font-weight: 400;
   font-style: italic;
-  line-height: 20px;
+  line-height: 18px;
 }
 
 .question {
@@ -1167,7 +1167,7 @@ body {
 .question__headline {
   font-size: 28px;
   font-weight: 600;
-  line-height: 40px;
+  line-height: 36px;
   color: #ffffff;
   margin: 0;
 }
@@ -1175,7 +1175,7 @@ body {
 .question__subtitle {
   font-size: 16px;
   font-weight: 400;
-  line-height: 20px;
+  line-height: 18px;
   color: #ffffff;
 }
 
@@ -1212,14 +1212,14 @@ body {
 .question-form__input::placeholder {
   font-size: 14px;
   font-weight: 300;
-  line-height: auto;
+  line-height: 12px;
   color: #646464;
 }
 
 .question-form__btn {
   font-size: 14px;
   font-weight: 300;
-  line-height: auto;
+  line-height: 12px;
   color: #ffffff;
   background-color: #e4705b;
   padding-top: 15px;
@@ -1266,14 +1266,14 @@ body {
 .content-presentation__headline {
   font-size: 28px;
   font-weight: 600;
-  line-height: 72px;
+  line-height: 24px;
   color: #ffffff;
 }
 
 .content-presentation__subtitle {
   font-size: 22px;
   font-weight: 400;
-  line-height: 45px;
+  line-height: 21px;
   color: #f3b8ad;
 }
 
@@ -1282,14 +1282,14 @@ body {
   color: #ffffff;
   font-size: 16px;
   font-weight: 400;
-  line-height: 20px;
+  line-height: 18px;
   margin-bottom: 20px;
 }
 
 .presentation__item--review .content-presentation__headline {
   font-size: 28px;
   font-weight: 600;
-  line-height: 72px;
+  line-height: 36px;
   text-transform: uppercase;
   color: #734089;
   margin-top: 100px;
@@ -1303,7 +1303,7 @@ body {
 .presentation__item--review .content-presentation__desc {
   font-size: 16px;
   font-weight: 400;
-  line-height: 20px;
+  line-height: 18px;
   color: #4b334c;
   max-width: 350px;
 }
@@ -1373,7 +1373,7 @@ body {
 .service-content__headline {
   font-size: 28px;
   font-weight: 600;
-  line-height: 72px;
+  line-height: 24px;
   color: #ffffff;
   margin: 0;
 }
@@ -1381,7 +1381,7 @@ body {
 .service-content__desc {
   font-size: 14px;
   font-weight: 400;
-  line-height: 21px;
+  line-height: 16px;
   color: #ffffff;
   margin: 0;
   margin-bottom: 20px;
@@ -1393,7 +1393,7 @@ body {
   box-shadow: 0 1px 0 0 rgba(244, 150, 136, 0.25), 0 -1px 0 0 rgba(252, 190, 184, 0.25), 1px 0 0 0 rgba(244, 150, 136, 0.25), -1px 0 0 0 rgba(252, 190, 184, 0.25), 1px -1px 0 0 rgba(248, 170, 160, 0.5), -1px 1px 0 0 rgba(248, 170, 160, 0.5), 1px 1px 0 0 rgba(240, 130, 111, 0.75), -1px -1px 0 0 rgba(255, 209, 208, 0.75);
   font-size: 14px;
   font-weight: 300;
-  line-height: auto;
+  line-height: 12px;
   color: #ffd1d0;
   padding-top: 12px;
   padding-bottom: 12px;
@@ -1406,7 +1406,7 @@ body {
 .service-content__link:hover {
   font-size: 14px;
   font-weight: 300;
-  line-height: auto;
+  line-height: 12px;
   color: #ffffff;
   background-color: #e4705b;
 }
@@ -1419,7 +1419,7 @@ body {
 .review__headline {
   font-size: 28px;
   font-weight: 600;
-  line-height: 72px;
+  line-height: 36px;
   text-transform: uppercase;
   color: #734089;
   text-align: center;
@@ -1466,7 +1466,7 @@ body {
 .content-wishes__title {
   font-size: 22px;
   font-weight: 400;
-  line-height: 45px;
+  line-height: 21px;
   color: #765474;
   margin: 0;
   margin-bottom: 60px;
@@ -1476,7 +1476,7 @@ body {
   font-size: 18px;
   font-weight: 400;
   font-style: italic;
-  line-height: 24px;
+  line-height: 21px;
   color: #646464;
   margin: 0;
 }
@@ -1516,7 +1516,7 @@ body {
   text-transform: uppercase;
   font-size: 14px;
   font-weight: 300;
-  line-height: auto;
+  line-height: 12px;
   color: #ffffff;
 }
 
@@ -1564,7 +1564,7 @@ body {
 .content-block__title {
   font-size: 22px;
   font-weight: 400;
-  line-height: 45px;
+  line-height: 21px;
   color: #765474;
   margin: 0;
 }
@@ -1572,7 +1572,7 @@ body {
 .content-block__text {
   font-size: 16px;
   font-weight: 400;
-  line-height: 20px;
+  line-height: 18px;
   color: #646464;
   display: flex;
   flex-direction: column;
@@ -1618,7 +1618,7 @@ body {
 .bankroll__headline {
   font-size: 28px;
   font-weight: 600;
-  line-height: 72px;
+  line-height: 36px;
   text-transform: uppercase;
   color: #734089;
 }
@@ -1672,14 +1672,14 @@ body {
 .content-cell__name {
   font-size: 18px;
   font-weight: 400;
-  line-height: 22px;
+  line-height: 21px;
   color: #755671;
 }
 
 .content-cell__price {
   font-size: 20px;
   font-weight: 300;
-  line-height: auto;
+  line-height: 21px;
   color: #755671;
 }
 
@@ -1705,7 +1705,7 @@ body {
   color: #ffd1d0;
   font-size: 16px;
   font-weight: 400;
-  line-height: 20px;
+  line-height: 18px;
 }
 
 .container-link__item--left::before {
@@ -1732,7 +1732,7 @@ body {
 .feature-nav__title {
   font-size: 28px;
   font-weight: 600;
-  line-height: 72px;
+  line-height: 36px;
   text-transform: uppercase;
   color: #734089;
 }
@@ -1773,7 +1773,7 @@ body {
 .accordion__desc {
   font-size: 22px;
   font-weight: 400;
-  line-height: 45px;
+  line-height: 36px;
   color: #765474;
 }
 
@@ -1804,14 +1804,14 @@ body {
 .content-block__name {
   font-size: 22px;
   font-weight: 400;
-  line-height: 45px;
+  line-height: 36px;
   color: #765474;
 }
 
 .content-block__desc {
   font-size: 16px;
   font-weight: 400;
-  line-height: 20px;
+  line-height: 18px;
   color: #765474;
   margin: 0;
 }
@@ -1825,7 +1825,7 @@ body {
   width: fit-content;
   font-size: 16px;
   font-weight: 400;
-  line-height: 20px;
+  line-height: 18px;
   color: #765474;
   cursor: pointer;
 }
@@ -1833,7 +1833,7 @@ body {
 .list-action__item {
   font-size: 14px;
   font-weight: 400;
-  line-height: auto;
+  line-height: 16px;
   color: #765474;
 }
 
