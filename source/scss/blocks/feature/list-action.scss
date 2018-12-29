@@ -1,20 +1,20 @@
 .list-action__name {
-	border-bottom: 1px dotted $title;
-	width: fit-content;
+    border-bottom: 1px dotted $title;
+    width: fit-content;
 
-	@include font-plan__text;
-	color: $title;
+    @include font-plan__text;
+    color: $title;
 
-	cursor: pointer;
+    cursor: pointer;
 }
 
 .list-action__item {
-	@include font-footer__link;
-	color: $title;
+    @include font-footer__link;
+    color: $title;
 }
 
-.list-action__name:focus ~ .drop-down, 
-.list-action__name:active ~ .drop-down, 
-.drop-down:hover { 
-   display: block; 
+.list-action__name:focus~.drop-down,
+.list-action__name:active~.drop-down,
+.drop-down:hover {
+    display: block;
 }
