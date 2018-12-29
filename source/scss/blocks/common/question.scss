@@ -6,9 +6,7 @@
 }
 
 .question__wrap {
-	max-width: 940px;
-
-	margin: 0 auto;
+	@include width-content;
 
 	padding-top: 60px;
 

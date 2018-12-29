@@ -3,9 +3,7 @@
 }
 
 .main-footer__wrap {
-	max-width: 940px;
-
-	margin: 0 auto;
+	@include width-content;
 
 	display: flex;
 	justify-content: space-between;

@@ -1,6 +1,5 @@
 .about-slider {
-	width: 940px;
-	margin: 0 auto;
+	@include width-content;
 }
 
 .about-slider .slick-next,

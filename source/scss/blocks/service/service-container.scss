@@ -1,9 +1,6 @@
 .service-container {
-	max-width: 940px;
-	margin: 0 auto;
+	@include width-content;
 
 	margin-top: 40px;
 
-	padding-left: 10px;
-	padding-right: 10px;
 }
