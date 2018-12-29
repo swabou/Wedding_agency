@@ -1,31 +1,31 @@
 .feedback {
-	display: flex;
-	flex-direction: row;
+    display: flex;
+    flex-direction: row;
 
-	@include width-content;
+    @include width-content;
 
-	display: flex;
-	flex-direction: row;
+    display: flex;
+    flex-direction: row;
 
-	&--video {
-		flex-direction: column;
-	}
+    &--video {
+        flex-direction: column;
+    }
 }
 
 .feedback__wrap {
-	display: flex;
-	flex-direction: row;
+    display: flex;
+    flex-direction: row;
 
-	margin-bottom: 60px;
+    margin-bottom: 60px;
 }
 
 .feedback__wishes {
-	margin-left: 20px;
+    margin-left: 20px;
 
-	&--video {
-		display: flex;
-		flex-direction: column;
-		justify-content: flex-end;
-		align-items: flex-start;
-	}
+    &--video {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: flex-start;
+    }
 }

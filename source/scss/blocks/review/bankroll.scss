@@ -1,18 +1,18 @@
 .bankroll {
-	@include width-content;
+    @include width-content;
 
-	display: flex;
-	flex-direction: column;
-	align-items: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .bankroll__headline {
-	@include main-heading;
+    @include main-heading;
 }
 
 .bankroll__wrap {
-	width: inherit;
+    width: inherit;
 
-	display: flex;
-	justify-content: space-around;
+    display: flex;
+    justify-content: space-around;
 }

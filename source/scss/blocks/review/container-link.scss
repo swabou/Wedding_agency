@@ -1,32 +1,32 @@
 .container-link {
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
-	width: 940px;
-	margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 940px;
+    margin: 0 auto;
 
-	padding-bottom: 25px;
+    padding-bottom: 25px;
 }
 
 .container-link__item {
-	max-width: 190px;
+    max-width: 190px;
 
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	
-	color: $quotes;
-	@include font-plan__text;
-	
-	&--left::before {
-		content: url('../img/review/arrow__link--left.svg');
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
-		margin-right: 20px;
-	}
+    color: $quotes;
+    @include font-plan__text;
 
-	&--right::after {
-		content: url('../img/review/arrow__link--right.svg');
+    &--left::before {
+        content: url('../img/review/arrow__link--left.svg');
 
-		margin-left: 20px;
-	}
+        margin-right: 20px;
+    }
+
+    &--right::after {
+        content: url('../img/review/arrow__link--right.svg');
+
+        margin-left: 20px;
+    }
 }

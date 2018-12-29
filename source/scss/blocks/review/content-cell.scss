@@ -1,51 +1,51 @@
 .content-cell__color {
-	
-	display: block;
-	width: 20px;
-	height: 20px;
-	border-radius: 40%;
 
-	margin-right: 12px;
+    display: block;
+    width: 20px;
+    height: 20px;
+    border-radius: 40%;
 
-	&--tomato {
-		background-color: $color-tomato;
-	}
+    margin-right: 12px;
 
-	&--pink-dirty {
-		background-color: $color-gradient;
-	}
+    &--tomato {
+        background-color: $color-tomato;
+    }
 
-	&--pink {
-		background-color: $quotes;
-	}
+    &--pink-dirty {
+        background-color: $color-gradient;
+    }
 
-	&--pink-soft {
-		background-color: $color-pink-soft;
-	}
+    &--pink {
+        background-color: $quotes;
+    }
 
-	&--crimson {
-		background-color: $color-crimson;
-	}
+    &--pink-soft {
+        background-color: $color-pink-soft;
+    }
 
-	&--eggplant {
-		background-color: $color-eggplant;
-	}
+    &--crimson {
+        background-color: $color-crimson;
+    }
 
-	&--eggplant-dark {
-		background-color: $color-eggplant--dark;
-	}
+    &--eggplant {
+        background-color: $color-eggplant;
+    }
 
-	&--emerald {
-		background-color: $color-emerald;
-	}
+    &--eggplant-dark {
+        background-color: $color-eggplant--dark;
+    }
+
+    &--emerald {
+        background-color: $color-emerald;
+    }
 }
 
 .content-cell__name {
-	@include font-table__name;
-	color: $color-eggplant;
+    @include font-table__name;
+    color: $color-eggplant;
 }
 
 .content-cell__price {
-	@include font-table__price;
-	color: $color-eggplant;
+    @include font-table__price;
+    color: $color-eggplant;
 }

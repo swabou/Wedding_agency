@@ -1,36 +1,36 @@
 .content-block__wrap-content {
-	display: flex;
-	flex-direction: column;
+    display: flex;
+    flex-direction: column;
 
-	margin-left: 20px;
+    margin-left: 20px;
 
-	&--order {
-		order: -1;
+    &--order {
+        order: -1;
 
-		margin-left: 0;
-		margin-right: 20px;
-	}
+        margin-left: 0;
+        margin-right: 20px;
+    }
 }
 
 .content-block__title {
-	@include font-wishes__title;
-	color: $title;
+    @include font-wishes__title;
+    color: $title;
 
-	margin: 0;
+    margin: 0;
 }
 
 .content-block__text {
-	@include font-plan__text;
-	color: $artist-name;
+    @include font-plan__text;
+    color: $artist-name;
 
-	display: flex;
-	flex-direction: column;
-	align-items: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .content-block__text::after {
-	content: url('../img/review/decoration__img.png');
+    content: url('../img/review/decoration__img.png');
 
-	margin-top: 20px;
+    margin-top: 20px;
 
 }
