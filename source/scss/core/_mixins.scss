@@ -177,3 +177,10 @@
               1px 1px 0 $weight rgba($to, .75),
               -1px -1px 0 $weight rgba($from, .75);
 }
+
+@mixin width-content {
+	width: 960px;
+	margin: 0 auto;
+	padding-right: 10px;
+	padding-left: 10px;
+}
