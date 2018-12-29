@@ -1,77 +1,77 @@
 .service-content {
-	width: 460px;
-	height: 300px;
+    width: 460px;
+    height: 300px;
 
-	background-size: 100%;
-	background-repeat: no-repeat;
-	background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
 
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 
-	&--wedding-key {
-		background-image: url('../img/service/service__img.png');
-	}
+    &--wedding-key {
+        background-image: url('../img/service/service__img.png');
+    }
 
-	&--sentence {
-		background-image: url('../img/service/service__img--1.png');
-	}
+    &--sentence {
+        background-image: url('../img/service/service__img--1.png');
+    }
 
-	&--party {
-		background-image: url('../img/service/service__img--2.png');
-	}
+    &--party {
+        background-image: url('../img/service/service__img--2.png');
+    }
 
-	&--travel {
-		background-image: url('../img/service/service__img--3.png');
-	}
+    &--travel {
+        background-image: url('../img/service/service__img--3.png');
+    }
 
-	&--anniversary {
-		background-image: url('../img/service/service__img--4.png');
-	}
+    &--anniversary {
+        background-image: url('../img/service/service__img--4.png');
+    }
 
-	&--other {
-		background-image: url('../img/service/service__img--5.png');
-	}
+    &--other {
+        background-image: url('../img/service/service__img--5.png');
+    }
 }
 
 .service-content__headline {
-	@include font-title;
-	color: $background-color;
-	
-	margin: 0;
+    @include font-title;
+    color: $background-color;
+
+    margin: 0;
 }
 
 .service-content__desc {
-	@include font-block__desc;
-	color: $background-color;
+    @include font-block__desc;
+    color: $background-color;
 
-	margin: 0;
-	margin-bottom: 20px;
+    margin: 0;
+    margin-bottom: 20px;
 
-	max-width: 320px;
-	text-align: center;
+    max-width: 320px;
+    text-align: center;
 }
 
 .service-content__link {
-	@include border-gradient($quotes, $color-gradient);
+    @include border-gradient($quotes, $color-gradient);
 
-	@include font-picture__link;
-	color: $quotes;
+    @include font-picture__link;
+    color: $quotes;
 
-	padding-top: 12px;
-	padding-bottom: 12px;
-	padding-left: 30px;
-	padding-right: 30px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 30px;
+    padding-right: 30px;
 
-	border-radius: 3px;
+    border-radius: 3px;
 
-	text-decoration: none;
+    text-decoration: none;
 
-	&:hover {
-		@include font-picture__link;
-		color: $background-color;
-		background-color: $picture-link;
-	}
+    &:hover {
+        @include font-picture__link;
+        color: $background-color;
+        background-color: $picture-link;
+    }
 }
