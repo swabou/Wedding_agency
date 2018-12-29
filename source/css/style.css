@@ -993,6 +993,10 @@ body {
   transition: all 0.5s;
 }
 
+.visually-hidden {
+  display: none;
+}
+
 .plan {
   background-image: url("../img/index/planworks__img--main.jpg");
   background-size: 100%;
@@ -1055,9 +1059,6 @@ body {
   color: #4b334c;
   max-width: 160px;
   text-align: center;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
 }
 
 .plan-content__text--coffee::before {
