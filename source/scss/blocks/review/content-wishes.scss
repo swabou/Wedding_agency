@@ -15,7 +15,7 @@
 }
 
 .content-wishes__quote::before {
-	content: url("../img/review/quotes.png");
+	content: url('../img/review/quotes.png');
 
 	position: relative;
 	top: 3px;
@@ -24,7 +24,7 @@
 }
 
 .content-wishes__quote::after {
-	content: url("../img/review/quotes.png");
+	content: url('../img/review/quotes.png');
 
 	position: relative;
 	top: 18px;
@@ -32,11 +32,11 @@
 }
 
 .content-wishes__quote--video::before {
-	content: url("../img/review/quote-white.png");
+	content: url('../img/review/quote-white.png');
 }
 
 .content-wishes__quote--video::after {
-	content: url("../img/review/quote-white.png");
+	content: url('../img/review/quote-white.png');
 }
 
 .content-wishes__button {
