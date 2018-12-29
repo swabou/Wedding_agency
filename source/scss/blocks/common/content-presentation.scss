@@ -2,40 +2,41 @@
 .content-presentation__headline,
 .content-presentation__subtitle,
 .content-presentation__desc {
-	margin: 0;
+    margin: 0;
 }
 
 .content-presentation__headline {
-	@include font-title;
-	color: $background-color;
+    @include font-title;
+    color: $background-color;
 }
 
 .content-presentation__subtitle {
-	@include font-wishes__title;
-	color: $feature-link;
+    @include font-wishes__title;
+    color: $feature-link;
 }
 
 .content-presentation__desc {
-	max-width: 320px;
-	color: $background-color;
-	@include font-plan__text;
+    max-width: 320px;
+    color: $background-color;
+    @include font-plan__text;
 
-	margin-bottom: 20px;
+    margin-bottom: 20px;
 }
 
 // Review
 .presentation__item--review .content-presentation__headline {
-	@include main-heading;
-	margin-top: 100px;
-	margin-bottom: 40px;
+    @include main-heading;
+    margin-top: 100px;
+    margin-bottom: 40px;
 }
 
 .presentation__item--review .content-presentation__subtitle {
-	color: $picture-link;
+    color: $picture-link;
 }
-.presentation__item--review .content-presentation__desc {
-	@include font-plan__text;
-	color: $plan-text;
 
-	max-width: 350px;
+.presentation__item--review .content-presentation__desc {
+    @include font-plan__text;
+    color: $plan-text;
+
+    max-width: 350px;
 }

@@ -1,28 +1,28 @@
 .question {
-	width: 100%;
+    width: 100%;
 
-	background: linear-gradient(rgba(142,104,139,.7), rgba(142,104,139,.7)),
-    url('../img/index/question-form__img--background.jpg');
+    background: linear-gradient(rgba(142, 104, 139, .7), rgba(142, 104, 139, .7)),
+        url('../img/index/question-form__img--background.jpg');
 }
 
 .question__wrap {
-	@include width-content;
+    @include width-content;
 
-	padding-top: 60px;
+    padding-top: 60px;
 
-	display: flex;
-	flex-direction: column;
-	align-items: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .question__headline {
-	@include font-question__headline;
-	color: $background-color;
+    @include font-question__headline;
+    color: $background-color;
 
-	margin: 0;
+    margin: 0;
 }
 
 .question__subtitle {
-	@include font-plan__text;
-	color: $background-color;
+    @include font-plan__text;
+    color: $background-color;
 }

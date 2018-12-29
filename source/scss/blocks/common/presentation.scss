@@ -1,24 +1,24 @@
 .presentation {
-	background-image: url('../img/works/main-picture__img--works.png');
-	background-size: 100%;
-	background-position: center;
-	background-repeat: no-repeat;
+    background-image: url('../img/works/main-picture__img--works.png');
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
 
-	&--review {
-		background-image: url('../img/review/main-picture__review.jpg');
-	}
+    &--review {
+        background-image: url('../img/review/main-picture__review.jpg');
+    }
 }
 
 .presentation__wrap {
-	display: flex;
-	flex-direction: column;
-	align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
 }
 
 .presentation__item {
-	display: flex;
-	flex-direction: column;
-	align-items: flex-end;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
 
-	@include width-content;
+    @include width-content;
 }

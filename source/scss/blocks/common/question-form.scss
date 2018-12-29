@@ -1,54 +1,50 @@
 .question-form {
-	min-width: 300px;
+    min-width: 300px;
 }
 
 .question-form__fieldset {
-	border: none;
+    border: none;
 
-	-webkit-display: flex;
-	-moz-display: flex;
-	-ms-display: flex;
-	-o-display: flex;
-	display: flex;
-	flex-direction: column;
+    display: flex;
+    flex-direction: column;
 
-	padding: 0;
+    padding: 0;
 }
 
 .question-form__line {
-	margin: 0;
-	margin-bottom: 15px;
+    margin: 0;
+    margin-bottom: 15px;
 }
 
 .question-form__input {
-	border-radius: 3px;
-	border: none;
+    border-radius: 3px;
+    border: none;
 
-	width: -webkit-fill-available;
+    width: -webkit-fill-available;
 
-	padding-top: 10px;
-	padding-bottom: 10px;
-	padding-left: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
 
-	outline: none;
+    outline: none;
 }
 
 .question-form__input::placeholder {
-	@include font-picture__link;
-	color: $artist-name;
+    @include font-picture__link;
+    color: $artist-name;
 }
 
 .question-form__btn {
-	@include font-picture__link;
-	color: $background-color;
-	background-color: $picture-link;
+    @include font-picture__link;
+    color: $background-color;
+    background-color: $picture-link;
 
-	padding-top: 15px;
-	padding-bottom: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
 
-	text-transform: uppercase;
-	border: none;
-	border-radius: 3px;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 3px;
 
-	margin-bottom: 50px;
+    margin-bottom: 50px;
 }

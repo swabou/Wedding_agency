@@ -1,31 +1,31 @@
 .portfolio {
-	width: 100%;
+    width: 100%;
 
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 
-	margin-bottom: 40px;
+    margin-bottom: 40px;
 }
 
 .portfolio__title {
-	@include main-heading;
+    @include main-heading;
 }
 
 .portfolio__link {
-	background-color: $picture-link;
-	color: $background-color;
+    background-color: $picture-link;
+    color: $background-color;
 
-	padding-left: 106px;
-	padding-right: 106px;
-	padding-top: 15px;
-	padding-bottom: 15px;
+    padding-left: 106px;
+    padding-right: 106px;
+    padding-top: 15px;
+    padding-bottom: 15px;
 
-	margin-top: 20px;
+    margin-top: 20px;
 
-	border-radius: 3px;
+    border-radius: 3px;
 
-	text-decoration: none;
-	text-transform: uppercase;
+    text-decoration: none;
+    text-transform: uppercase;
 }

@@ -1,11 +1,11 @@
 .main-footer {
-	background-color: $footer-color;
+    background-color: $footer-color;
 }
 
 .main-footer__wrap {
-	@include width-content;
+    @include width-content;
 
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
