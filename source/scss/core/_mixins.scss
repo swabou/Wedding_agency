@@ -1,159 +1,180 @@
 @mixin font-nav {
+    font-family: 'Open Sans Regular';
     font-size: 18px;
     font-weight: 400;
     line-height: 21px;
 }
 
 @mixin font-logo {
+    font-family: 'Open Sans ExtraBold Italic';
     font-size: 43px;
     font-weight: 800;
-    font-style: italic;
     line-height: 48px;
 }
 
 @mixin font-tel__bold {
+    font-family: 'Open Sans Bold';
     font-size: 18px;
     font-weight: 700;
     line-height: 21px;
 }
 
 @mixin font-tel__uppercase {
+    font-family: 'Open Sans Bold';
     font-size: 25px;
     font-weight: 700;
     line-height: 21px;
 }
 
 @mixin font-picture__headline {
+    font-family: 'Open Sans ExtraBold Italic';
     font-size: 77px;
     font-weight: 800;
-    font-style: italic;
     line-height: 61px;
 }
 
 @mixin font-picture__subtitle {
+    font-family: 'Open Sans ExtraBold';
     font-size: 19px;
     font-weight: 800;
     line-height: 21px;
 }
 
 @mixin font-picture__desc {
+    font-family: 'Open Sans Semibold';
     font-size: 18px;
     font-weight: 600;
     line-height: 21px;
 }
 
 @mixin font-picture__link {
+    font-family: 'Open Sans Light';
     font-size: 14px;
     font-weight: 300;
     line-height: 12px;
 }
 
 @mixin font-title {
+    font-family: 'Open Sans Semibold';
     font-size: 28px;
     font-weight: 600;
     line-height: 24px;
 }
 
 @mixin font-hover__headline {
+    font-family: 'Open Sans Semibold';
     font-size: 18px;
     font-weight: 600;
     line-height: 21px;
 }
 
 @mixin font-hover__desc {
+    font-family: 'Open Sans Semibold';
     font-size: 14px;
     font-weight: 600;
     line-height: 16px;
 }
 
 @mixin font-plan__text {
+    font-family: 'Open Sans Regular';
     font-size: 16px;
     font-weight: 400;
     line-height: 18px;
 }
 
 @mixin font-artists__name {
+    font-family: 'Open Sans Bold';
     font-size: 16px;
     font-weight: 700;
     line-height: 18px;
 }
 
 @mixin font-artists__surname {
+    font-family: 'Open Sans Italic';
     font-size: 16px;
     font-weight: 400;
-    font-style: italic;
     line-height: 18px;
 }
 
 @mixin font-question__headline {
+    font-family: 'Open Sans Semibold';
     font-size: 28px;
     font-weight: 600;
     line-height: 36px;
 }
 
 @mixin font-footer__link {
+    font-family: 'Open Sans Regular';
     font-size: 14px;
     font-weight: 400;
     line-height: 16px;
 }
 
 @mixin font-picture__subtitle--review {
+    font-family: 'Open Sans Regular';
     font-size: 22px;
     font-weight: 400;
     line-height: 36px;
 }
 
 @mixin font-sprite {
+    font-family: 'Open Sans Italic';
     font-size: 14px;
     font-weight: 400;
-    font-style: italic;
     line-height: 16px;
 }
 
 @mixin font-wishes__title {
+    font-family: 'Open Sans Regular';
     font-size: 22px;
     font-weight: 400;
     line-height: 21px;
 }
 
 @mixin font-wishes__blockquote {
+    font-family: 'Open Sans Italic';
     font-size: 18px;
     font-weight: 400;
-    font-style: italic;
     line-height: 21px;
 }
 
 @mixin font-table__name {
+    font-family: 'Open Sans Regular';
     font-size: 18px;
     font-weight: 400;
     line-height: 21px;
 }
 
 @mixin font-table__price {
+    font-family: 'Open Sans Light';
     font-size: 20px;
     font-weight: 300;
     line-height: 21px;
 }
 
 @mixin font-order__item {
+    font-family: 'Open Sans Light';
     font-size: 16px;
     font-weight: 300;
     line-height: 18px;
 }
 
 @mixin font-block__desc {
+    font-family: 'Open Sans Regular';
     font-size: 14px;
     font-weight: 400;
     line-height: 16px;
 }
 
 @mixin font-action__item {
+    font-family: 'Open Sans Regular';
     font-size: 14px;
     font-weight: 400;
     line-height: 16px;
 }
 
 @mixin main-heading {
+    font-family: 'Open Sans Semibold';
     font-size: 28px;
     font-weight: 600;
     line-height: 36px;
