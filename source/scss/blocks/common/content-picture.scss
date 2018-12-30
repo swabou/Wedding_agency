@@ -53,4 +53,16 @@
     margin-bottom: 155px;
 
     border-radius: 3px;
+
+    &:hover {
+        @include hover-link;
+    }
+
+    &:active {
+        @include active-link;
+    }
+
+    &:focus {
+        @include focus-link;
+    }
 }

@@ -841,6 +841,22 @@ body {
   border-radius: 3px;
 }
 
+.content-picture__link:hover {
+  background-color: #e87561;
+}
+
+.content-picture__link:active {
+  background-color: #e87561;
+  color: #cf7578;
+  -webkit-box-shadow: inset 0 5px 0 0 #e4705b;
+  box-shadow: inset 0 5px 0 0 #e4705b;
+}
+
+.content-picture__link:focus {
+  border: 1px solid #fff;
+  outline: none;
+}
+
 .portfolio {
   width: 100%;
   display: flex;

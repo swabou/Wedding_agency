@@ -188,3 +188,15 @@
 @mixin hover-link {
     background-color: #e87561;
 }
+
+@mixin active-link {
+    background-color: #e87561;
+    color: #cf7578;
+    -webkit-box-shadow: inset 0 5px 0 0 #e4705b;
+    box-shadow: inset 0 5px 0 0 #e4705b;
+}
+
+@mixin focus-link {
+    border: 1px solid #fff;
+    outline: none;
+}
