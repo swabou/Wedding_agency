@@ -691,6 +691,14 @@ th {
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'Open Sans Semibold';
+  src: url("../fonts/OpenSans-SemiBold.eot");
+  src: url("../fonts/OpenSans-SemiBold.eot?#iefix") format("embedded-opentype"), url("../fonts/OpenSans-SemiBold.woff") format("woff"), url("../fonts/OpenSans-SemiBold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
 body {
   font-family: "Open Sans Regular", Arial, Helvetica, sans-serif;
   background-color: #ffffff;
