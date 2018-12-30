@@ -12,9 +12,7 @@
 @import "core/_global.scss";
 
 // Common
-@import "blocks/common/wrap-header.scss";
 @import "blocks/common/main-header.scss";
-@import "blocks/common/main-nav.scss";
 @import "blocks/common/nav-list.scss";
 @import "blocks/common/logo.scss";
 @import "blocks/common/contact-phone.scss";
@@ -50,10 +48,8 @@
 @import "blocks/common/content-presentation.scss";
 
 // Service
-@import "blocks/service/service.scss";
 @import "blocks/service/service-container.scss";
 @import "blocks/service/service-list.scss";
-@import "blocks/service/service-card.scss";
 @import "blocks/service/service-content.scss";
 
 // Review
@@ -67,9 +63,6 @@
 @import "blocks/review/about-slider.scss";
 
 @import "blocks/review/bankroll.scss";
-@import "blocks/review/container-table.scss";
-@import "blocks/review/bankroll-table.scss";
-@import "blocks/review/content-row.scss";
 @import "blocks/review/content-cell.scss";
 
 @import "blocks/review/container-feedback.scss";
@@ -77,7 +70,6 @@
 @import "blocks/review/container-link.scss";
 
 // Feature 
-@import "blocks/feature/feature.scss";
 @import "blocks/feature/feature-nav.scss";
 
 @import "blocks/feature/container-accordion.scss";

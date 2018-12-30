@@ -1041,7 +1041,7 @@ body {
 }
 
 .plan-list__item::after {
-  content: url(../img/index/arrow-plan.png);
+  content: url("../img/index/arrow-plan.png");
   position: relative;
   top: -15px;
   left: 10px;
@@ -1193,10 +1193,6 @@ body {
 
 .question-form__fieldset {
   border: none;
-  -webkit-display: flex;
-  -moz-display: flex;
-  -ms-display: flex;
-  -o-display: flex;
   display: flex;
   flex-direction: column;
   padding: 0;
@@ -1215,6 +1211,14 @@ body {
   padding-bottom: 10px;
   padding-left: 15px;
   outline: none;
+}
+
+.question-form__input:hover,
+.question-form__input:active,
+.question-form__input:focus {
+  border-color: #e4705b;
+  border-style: solid;
+  transition: all 0.3s;
 }
 
 .question-form__input::placeholder {
