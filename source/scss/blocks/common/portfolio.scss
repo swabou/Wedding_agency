@@ -28,4 +28,16 @@
 
     text-decoration: none;
     text-transform: uppercase;
+
+    &:hover {
+        @include hover-link;
+    }
+
+    &:active {
+        @include active-link;
+    }
+
+    &:focus {
+        @include focus-link;
+    }
 }

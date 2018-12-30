@@ -35,4 +35,16 @@
     &--works {
         margin-bottom: 40px;
     }
+
+    &:hover {
+        @include hover-link;
+    }
+
+    &:active {
+        @include active-link;
+    }
+
+    &:focus {
+        @include focus-link;
+    }
 }

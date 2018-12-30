@@ -74,4 +74,12 @@
         color: $background-color;
         background-color: $picture-link;
     }
+
+    &:active {
+        @include active-link;
+    }
+
+    &:focus {
+        @include focus-link;
+    }
 }

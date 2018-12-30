@@ -187,6 +187,7 @@
 
 @mixin hover-link {
     background-color: #e87561;
+    transition: all 0.3s;
 }
 
 @mixin active-link {
