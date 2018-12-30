@@ -699,6 +699,14 @@ th {
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'Open Sans ExtraBold Italic';
+  src: url("../fonts/OpenSans-ExtraBoldItalic.eot");
+  src: url("../fonts/OpenSans-ExtraBoldItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/OpenSans-ExtraBoldItalic.woff") format("woff"), url("../fonts/OpenSans-ExtraBoldItalic.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
 body {
   font-family: "Open Sans Regular", Arial, Helvetica, sans-serif;
   background-color: #ffffff;
