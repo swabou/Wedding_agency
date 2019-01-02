@@ -8,11 +8,15 @@
 .content-presentation__headline {
     @include font-title;
     color: $background-color;
+
+    margin-top: 50px;
 }
 
 .content-presentation__subtitle {
     @include font-wishes__title;
     color: $feature-link;
+
+    margin-top: 35px;
 }
 
 .content-presentation__desc {
@@ -20,7 +24,11 @@
     color: $background-color;
     @include font-plan__text;
 
-    margin-bottom: 20px;
+    margin-top: 15px;
+}
+
+.content-presentation__sprite {
+    margin-top: 40px;
 }
 
 // Review
