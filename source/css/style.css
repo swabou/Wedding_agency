@@ -1623,8 +1623,7 @@ body {
   margin: 0 auto;
   padding-right: 10px;
   padding-left: 10px;
-  display: flex;
-  flex-direction: row;
+  margin-top: 50px;
 }
 
 .feedback--video {

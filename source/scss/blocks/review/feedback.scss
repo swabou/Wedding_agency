@@ -4,8 +4,7 @@
 
     @include width-content;
 
-    display: flex;
-    flex-direction: row;
+    margin-top: 50px;
 
     &--video {
         flex-direction: column;
