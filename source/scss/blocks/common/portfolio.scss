@@ -11,18 +11,24 @@
 
 .portfolio__title {
     @include main-heading;
+
+    margin-top: 44px;
+    margin-right: 32px;
+    margin-bottom: 18px;
 }
 
 .portfolio__link {
     background-color: $picture-link;
     color: $background-color;
 
+    @include font-picture__link;
+
     padding-left: 106px;
     padding-right: 106px;
     padding-top: 15px;
     padding-bottom: 15px;
 
-    margin-top: 20px;
+    margin-right: 26px;
 
     border-radius: 3px;
 

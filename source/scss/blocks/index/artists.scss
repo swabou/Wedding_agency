@@ -8,6 +8,11 @@
 
 .artists__headline {
     @include main-heading;
+
+    margin: 0;
+    margin-top: 67px;
+    margin-right: 30px;
+    margin-bottom: 9px;
 }
 
 .artists .slick-track {
