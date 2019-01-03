@@ -776,6 +776,11 @@ body {
   text-decoration: none;
 }
 
+.nav-list__link--active {
+  padding-bottom: 15px;
+  border-bottom: 4px solid #734089;
+}
+
 .logo {
   margin: 0;
   margin-right: auto;

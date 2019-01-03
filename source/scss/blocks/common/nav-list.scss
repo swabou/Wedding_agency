@@ -15,4 +15,9 @@
     @include font-nav;
     color: $nav-link;
     text-decoration: none;
+
+    &--active {
+    	padding-bottom: 15px;
+    	border-bottom: 4px solid $logo;
+    }
 }
