@@ -1222,7 +1222,7 @@ body {
   font-family: 'Open Sans Regular';
   font-size: 16px;
   font-weight: 400;
-  line-height: 18px;
+  line-height: 21px;
   color: #4b334c;
   max-width: 160px;
   text-align: center;
@@ -1361,7 +1361,7 @@ body {
   font-family: 'Open Sans Regular';
   font-size: 16px;
   font-weight: 400;
-  line-height: 18px;
+  line-height: 21px;
   color: #ffffff;
   margin: 0;
   margin-top: 11px;
@@ -1463,6 +1463,10 @@ body {
   margin-right: 83px;
 }
 
+.presentation__wrap--review {
+  margin-right: 52px;
+}
+
 .presentation__item {
   display: flex;
   flex-direction: column;
@@ -1504,12 +1508,16 @@ body {
   font-family: 'Open Sans Regular';
   font-size: 16px;
   font-weight: 400;
-  line-height: 18px;
+  line-height: 21px;
   margin-top: 15px;
 }
 
 .content-presentation__sprite {
   margin-top: 45px;
+}
+
+.content-presentation__sprite--review {
+  margin-top: 92px;
 }
 
 .presentation__item--review .content-presentation__headline {
@@ -1519,19 +1527,20 @@ body {
   line-height: 36px;
   text-transform: uppercase;
   color: #734089;
-  margin-top: 100px;
-  margin-bottom: 40px;
+  margin-top: 91px;
+  margin-bottom: 33px;
 }
 
 .presentation__item--review .content-presentation__subtitle {
   color: #e4705b;
+  margin-top: 0;
 }
 
 .presentation__item--review .content-presentation__desc {
   font-family: 'Open Sans Regular';
   font-size: 16px;
   font-weight: 400;
-  line-height: 18px;
+  line-height: 21px;
   color: #4b334c;
   max-width: 350px;
 }
@@ -1823,7 +1832,7 @@ body {
   font-family: 'Open Sans Regular';
   font-size: 16px;
   font-weight: 400;
-  line-height: 18px;
+  line-height: 21px;
   color: #646464;
   display: flex;
   flex-direction: column;
@@ -1964,7 +1973,7 @@ body {
   font-family: 'Open Sans Regular';
   font-size: 16px;
   font-weight: 400;
-  line-height: 18px;
+  line-height: 21px;
 }
 
 .container-link__item--left::before {
@@ -2100,7 +2109,7 @@ body {
   font-family: 'Open Sans Regular';
   font-size: 16px;
   font-weight: 400;
-  line-height: 18px;
+  line-height: 21px;
   color: #765474;
   margin: 0;
   margin-top: 8px;
@@ -2116,7 +2125,7 @@ body {
   font-family: 'Open Sans Regular';
   font-size: 16px;
   font-weight: 400;
-  line-height: 18px;
+  line-height: 21px;
   color: #765474;
   cursor: pointer;
 }

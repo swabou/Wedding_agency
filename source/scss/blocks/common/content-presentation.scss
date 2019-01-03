@@ -31,17 +31,22 @@
 
 .content-presentation__sprite {
     margin-top: 45px;
+
+    &--review {
+        margin-top: 92px;
+    }
 }
 
 // Review
 .presentation__item--review .content-presentation__headline {
     @include main-heading;
-    margin-top: 100px;
-    margin-bottom: 40px;
+    margin-top: 91px;
+    margin-bottom: 33px;
 }
 
 .presentation__item--review .content-presentation__subtitle {
     color: $picture-link;
+    margin-top: 0;
 }
 
 .presentation__item--review .content-presentation__desc {
