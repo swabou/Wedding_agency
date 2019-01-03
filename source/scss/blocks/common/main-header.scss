@@ -1,6 +1,7 @@
 .main-header {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     align-items: center;
 
     @include width-content;

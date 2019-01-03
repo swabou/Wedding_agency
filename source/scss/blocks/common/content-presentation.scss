@@ -10,13 +10,15 @@
     color: $background-color;
 
     margin-top: 50px;
+
+    text-transform: uppercase;
 }
 
 .content-presentation__subtitle {
     @include font-wishes__title;
     color: $feature-link;
 
-    margin-top: 35px;
+    margin-top: 30px;
 }
 
 .content-presentation__desc {
@@ -28,7 +30,7 @@
 }
 
 .content-presentation__sprite {
-    margin-top: 40px;
+    margin-top: 45px;
 }
 
 // Review
