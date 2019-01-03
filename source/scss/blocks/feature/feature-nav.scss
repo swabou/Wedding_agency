@@ -3,6 +3,7 @@
     padding-right: 10px;
     padding-left: 10px;
     margin: 0 auto;
+    margin-top: 8px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -11,11 +12,16 @@
 
 .feature-nav__title {
     @include main-heading;
+
+    margin: 0;
+    margin-top: 23px;
+    margin-right: 25px;
 }
 
 .feature-nav__item {
     text-decoration: none;
     color: $feature-link;
+    @include font-nav;
 
     max-width: 140px;
 
@@ -23,15 +29,23 @@
     justify-content: center;
     align-items: center;
 
+    position: relative;
+
     &--left::before {
         content: url('../img/review/arrow__link--left.svg');
 
         margin-right: 20px;
+
+        right: 35px;
+        top: 16px;
     }
 
     &--right::after {
         content: url('../img/review/arrow__link--right.svg');
 
         margin-left: 20px;
+        
+        left: 14px;
+        top: 16px;
     }
 }
