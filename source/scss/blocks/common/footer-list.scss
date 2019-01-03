@@ -1,0 +1,18 @@
+.footer-list {
+	display: flex;
+    flex-direction: row;
+
+    list-style-type: none;
+
+    padding: 0;
+}
+
+.footer-list__item {
+    margin-right: 30px;
+}
+
+.footer-list__link {
+    @include font-block__desc;
+    color: $background-color;
+    text-decoration: none;
+}

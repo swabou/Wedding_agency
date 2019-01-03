@@ -1107,6 +1107,26 @@ body {
   color: #ffffff;
 }
 
+.footer-list {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  padding: 0;
+}
+
+.footer-list__item {
+  margin-right: 30px;
+}
+
+.footer-list__link {
+  font-family: 'Open Sans Regular';
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16px;
+  color: #ffffff;
+  text-decoration: none;
+}
+
 .social-list {
   padding: 0;
   margin: 0;
@@ -1507,6 +1527,7 @@ body {
   padding-right: 10px;
   padding-left: 10px;
   margin-top: 40px;
+  padding-bottom: 27px;
 }
 
 .service-list {
