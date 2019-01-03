@@ -2015,18 +2015,24 @@ body {
   position: relative;
 }
 
+.feature-nav__item--left {
+  right: 35px;
+  top: 16px;
+}
+
 .feature-nav__item--left::before {
   content: url("../img/review/arrow__link--left.svg");
   margin-right: 20px;
-  right: 35px;
+}
+
+.feature-nav__item--right {
+  left: 14px;
   top: 16px;
 }
 
 .feature-nav__item--right::after {
   content: url("../img/review/arrow__link--right.svg");
   margin-left: 20px;
-  left: 14px;
-  top: 16px;
 }
 
 .container-accordion {
