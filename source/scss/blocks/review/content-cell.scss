@@ -1,3 +1,7 @@
+.content-cell {
+    padding-bottom: 25px;
+}
+
 .content-cell__color {
 
     display: block;
@@ -43,6 +47,9 @@
 .content-cell__name {
     @include font-table__name;
     color: $color-eggplant;
+
+    padding-right: 70px;
+    margin: 0;
 }
 
 .content-cell__price {

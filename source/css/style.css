@@ -1877,6 +1877,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-bottom: 60px;
 }
 
 .bankroll__headline {
@@ -1892,6 +1893,10 @@ body {
   width: inherit;
   display: flex;
   justify-content: space-around;
+}
+
+.content-cell {
+  padding-bottom: 25px;
 }
 
 .content-cell__color {
@@ -1940,6 +1945,8 @@ body {
   font-weight: 400;
   line-height: 21px;
   color: #755671;
+  padding-right: 70px;
+  margin: 0;
 }
 
 .content-cell__price {
