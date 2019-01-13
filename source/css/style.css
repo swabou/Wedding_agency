@@ -1420,18 +1420,16 @@ body:after {
 .question-form__input {
   border-radius: 3px;
   border: none;
-  width: -webkit-fill-available;
+  width: 95%;
   padding-top: 10px;
   padding-bottom: 10px;
   padding-left: 15px;
-  outline: none;
 }
 
 .question-form__input:hover,
-.question-form__input:active,
-.question-form__input:focus {
-  border-color: #e4705b;
-  border-style: solid;
+.question-form__input:focus,
+.question-form__input:active {
+  outline: 4px solid #e4705b;
   transition: all 0.3s;
 }
 

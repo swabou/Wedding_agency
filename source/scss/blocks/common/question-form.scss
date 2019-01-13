@@ -23,19 +23,17 @@
     border-radius: 3px;
     border: none;
 
-    width: -webkit-fill-available;
+    width: 95%;
 
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 15px;
-    outline: none;
 }
 
 .question-form__input:hover,
-.question-form__input:active,
-.question-form__input:focus {
-    border-color: $peach;
-    border-style: solid;
+.question-form__input:focus,
+.question-form__input:active {
+    outline: 4px solid $peach;
     transition: all 0.3s;
 }
 
