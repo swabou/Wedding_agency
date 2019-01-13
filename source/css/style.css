@@ -746,8 +746,24 @@ body {
   box-sizing: border-box;
 }
 
+body:after {
+  padding-bottom: 6px;
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  background: url(../img/common/shadow.png);
+  width: 100%;
+  height: 95px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 .wrap-header {
   padding-bottom: 6px;
+  background-color: #ffffff;
+  z-index: 1;
+  position: relative;
 }
 
 .main-header {

@@ -1,3 +1,9 @@
 .wrap-header {
 	padding-bottom: 6px;
+
+	background-color: $background-color;
+
+	z-index: 1;
+
+	position: relative;
 }
