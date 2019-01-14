@@ -1,5 +1,5 @@
 .content-cell {
-    padding-bottom: 25px;
+    padding: 0;
 }
 
 .content-cell__color {
@@ -48,11 +48,21 @@
     @include font-table__name;
     color: $color-eggplant;
 
-    padding-right: 70px;
     margin: 0;
+
+    padding-right: 5px;
+}
+
+.content-cell__border {
+    line-height: 1ex;
+    display: inline-block;
+    width: 100%;
+    border-bottom: 1px dotted;
 }
 
 .content-cell__price {
     @include font-table__price;
     color: $color-eggplant;
+
+    padding-left: 5px;
 }

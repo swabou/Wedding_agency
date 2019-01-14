@@ -1939,8 +1939,13 @@ body:after {
   justify-content: space-around;
 }
 
+.dotted {
+  width: 100%;
+  vertical-align: bottom;
+}
+
 .content-cell {
-  padding-bottom: 25px;
+  padding: 0;
 }
 
 .content-cell__color {
@@ -1989,8 +1994,15 @@ body:after {
   font-weight: 400;
   line-height: 21px;
   color: #755671;
-  padding-right: 70px;
   margin: 0;
+  padding-right: 5px;
+}
+
+.content-cell__border {
+  line-height: 1ex;
+  display: inline-block;
+  width: 100%;
+  border-bottom: 1px dotted;
 }
 
 .content-cell__price {
@@ -1999,6 +2011,7 @@ body:after {
   font-weight: 300;
   line-height: 21px;
   color: #755671;
+  padding-left: 5px;
 }
 
 .container-feedback {
