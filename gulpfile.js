@@ -34,7 +34,7 @@ gulp.task('svgSprite', function () {
                 },
             }
         ))
-        .pipe(gulp.dest('app/images/'));
+        .pipe(gulp.dest('source/img/'));
 });
 
 gulp.task('start', gulp.series('sass', 'server'));
