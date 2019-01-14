@@ -37,7 +37,7 @@
 
 
         &::before {
-        content: url('../img/review/arrow__link--left.svg');
+        content: url('../img/sprite/sprite.svg#review--arrow__link--left');
 
         margin-right: 20px;
     }
@@ -47,7 +47,7 @@
         left: 14px;
         top: 16px;
         &::after {
-            content: url('../img/review/arrow__link--right.svg');
+            content: url('../img/sprite/sprite.svg#review--arrow__link--right');
 
             margin-left: 20px;
         }
