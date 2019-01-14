@@ -1,6 +1,8 @@
 var gulp = require('gulp');
 var sass = require('gulp-sass');
 var server = require('browser-sync');
+var svgSprite = require('gulp-svg-sprite');
+
 /*Task for Sass*/
 gulp.task('sass', function() { //Таск sass
 	return gulp.src('source/scss/**/style.scss') // Берем источник
@@ -19,6 +21,20 @@ gulp.task('server', function(){
 		});
 	gulp.watch('source/scss/**/*.scss', {usePolling: true}, gulp.series('sass'));
 	gulp.watch('source/*.html').on('change', server.reload);
+});
+
+// Only svg Sprite
+gulp.task('svgSprite', function () {
+    return gulp.src('source/img/**/*.svg') // svg files for sprite
+        .pipe(svgSprite({
+                mode: {
+                    stack: {
+                        sprite: "../sprite/sprite.svg"  //sprite file name
+                    }
+                },
+            }
+        ))
+        .pipe(gulp.dest('app/images/'));
 });
 
 gulp.task('start', gulp.series('sass', 'server'));
