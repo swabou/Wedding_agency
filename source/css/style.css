@@ -1182,6 +1182,10 @@ body:after {
   margin-right: 25px;
 }
 
+.social-list__img {
+  fill: #937f7a;
+}
+
 .social-list__link:hover .social-list__img {
   fill: #155e8b;
   transition: all 0.5s;

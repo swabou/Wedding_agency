@@ -11,6 +11,10 @@
     margin-right: 25px;
 }
 
+.social-list__img {
+	fill: $nav-link;
+}
+
 .social-list__link:hover .social-list__img {
     fill: $hover-icon;
     transition: all 0.5s;
