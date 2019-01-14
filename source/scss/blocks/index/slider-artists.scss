@@ -12,9 +12,9 @@
 }
 
 .slider-artists .slick-next::before {
-    content: url('../img/index/slider-artists__img--arrow-right.svg');
+    content: url('../img/sprite/sprite.svg#index--slider-artists__img--arrow-right');
 }
 
 .slider-artists .slick-prev::before {
-    content: url('../img/index/slider-artists__img--arrow-left.svg');
+    content: url('../img/sprite/sprite.svg#index--slider-artists__img--arrow-left');
 }
