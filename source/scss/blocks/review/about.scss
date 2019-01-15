@@ -1,6 +1,7 @@
 .about {
     width: 100%;
     margin-top: 25px;
+    margin-bottom: 20px;
 }
 
 .about__wrap {
@@ -14,8 +15,8 @@
 .about__item {
     @include width-content;
 
-    padding-top: 35px;
-    padding-bottom: 35px;
+    padding-top: 25px;
+    padding-bottom: 42px;
 
     display: flex;
     flex-direction: row;

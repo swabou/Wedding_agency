@@ -1,8 +1,14 @@
+.about .content-block--review {
+    display: flex;
+    align-items: flex-start;
+}
+
 .content-block__wrap-content {
     display: flex;
     flex-direction: column;
 
-    margin-left: 20px;
+    margin-left: -6px;
+    margin-top: -6px;
 
     &--order {
         order: -1;
@@ -12,11 +18,17 @@
     }
 }
 
+.content-block__img {
+    margin-right: 25px;
+}
+
 .content-block__title {
     @include font-wishes__title;
     color: $title;
 
     margin: 0;
+
+    margin-bottom: 28px;
 }
 
 .content-block__text {
@@ -26,6 +38,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+
+    margin: 0;
 }
 
 .content-block__text::after {

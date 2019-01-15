@@ -5,17 +5,23 @@
     flex-direction: column;
     align-items: center;
 
-    margin-bottom: 60px;
+    margin-bottom: 42px;
 }
 
 .bankroll__headline {
     @include main-heading;
+
+    margin-right: 7px;
 }
 
 .bankroll__wrap {
     width: inherit;
 
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+}
+
+.bankroll__item {
+	margin-bottom: 21px;
 }
 

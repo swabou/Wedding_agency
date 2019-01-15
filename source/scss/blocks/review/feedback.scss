@@ -4,7 +4,7 @@
 
     @include width-content;
 
-    margin-top: 50px;
+    margin-top: 35px;
 
     &--video {
         flex-direction: column;
@@ -18,8 +18,12 @@
     margin-bottom: 60px;
 }
 
+.feedback__img {
+    margin-left: -7px;
+    margin-right: 10px;
+}
+
 .feedback__wishes {
-    margin-left: 20px;
 
     &--video {
         display: flex;

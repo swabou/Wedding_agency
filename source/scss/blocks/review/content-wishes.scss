@@ -3,7 +3,7 @@
     color: $title;
 
     margin: 0;
-    margin-bottom: 60px;
+    margin-bottom: 55px;
 }
 
 .content-wishes__blockquote {
@@ -11,6 +11,8 @@
     color: $artist-name;
 
     margin: 0;
+
+    max-width: 700px;
 
 }
 
