@@ -14,6 +14,7 @@
 .contact-phone__number {
     @include font-tel__bold;
     margin: 0;
+    margin-right: 25px;
 }
 
 .contact-phone__uppercase {

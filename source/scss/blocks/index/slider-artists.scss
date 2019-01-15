@@ -1,14 +1,20 @@
 .slider-artists {
-    max-width: 940px;
+    max-width: 1000px;
 
     margin: 0;
     padding: 0;
+}
+
+.slider-artists__item {
+	
 }
 
 .slider-artists .slick-next,
 .slider-artists .slick-prev {
     width: 28px;
     height: 28px;
+
+    top: 108px;
 }
 
 .slider-artists .slick-next::before {
