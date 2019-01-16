@@ -2158,6 +2158,7 @@ body:after {
   margin: 0 auto;
   padding-right: 10px;
   padding-left: 10px;
+  width: 1040px;
 }
 
 .accordion {
@@ -2190,6 +2191,10 @@ body:after {
   list-style-type: none;
   margin-right: 20px;
   margin-bottom: 50px;
+}
+
+.accordion-list__item:nth-child(2n) {
+  margin-right: 0;
 }
 
 .content-block {

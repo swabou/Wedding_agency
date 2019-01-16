@@ -11,4 +11,8 @@
     margin-right: 20px;
     margin-bottom: 50px;
 
+    &:nth-child(2n) {
+    	margin-right: 0;
+    }
+
 }
