@@ -973,6 +973,10 @@ body:after {
   margin-bottom: 37px;
 }
 
+.portfolio--works {
+  margin-bottom: 25px;
+}
+
 .portfolio__title {
   font-family: 'Open Sans Semibold';
   font-size: 28px;
@@ -1111,7 +1115,7 @@ body:after {
 }
 
 .content-hover__link--works {
-  margin-top: 20px;
+  margin-top: 16px;
 }
 
 .content-hover__link:hover {
@@ -1412,6 +1416,10 @@ body:after {
   margin-top: 38px;
 }
 
+.question-form--review {
+  margin-top: 28px;
+}
+
 .question-form__fieldset {
   border: none;
   display: flex;
@@ -1561,6 +1569,10 @@ body:after {
   font-weight: 400;
   line-height: 21px;
   margin-top: 15px;
+}
+
+.content-presentation__desc--works {
+  margin-top: 9px;
 }
 
 .content-presentation__sprite {
@@ -1760,12 +1772,13 @@ body:after {
 .feedback__wrap {
   display: flex;
   flex-direction: row;
-  margin-bottom: 60px;
+  margin-bottom: 57px;
 }
 
 .feedback__img {
   margin-left: -7px;
   margin-right: 10px;
+  align-self: baseline;
 }
 
 .feedback__wishes--video {
@@ -1792,6 +1805,7 @@ body:after {
   line-height: 21px;
   color: #646464;
   margin: 0;
+  margin-top: 28px;
   max-width: 700px;
 }
 
@@ -1824,7 +1838,7 @@ body:after {
   align-items: center;
   border-radius: 3px;
   background-color: #e4705b;
-  margin-top: 20px;
+  margin-top: 35px;
   padding: 15px;
   text-decoration: none;
   text-transform: uppercase;
@@ -2070,7 +2084,7 @@ body:after {
   justify-content: space-between;
   width: 940px;
   margin: 0 auto;
-  padding-bottom: 25px;
+  padding-bottom: 6px;
 }
 
 .container-link__item {
