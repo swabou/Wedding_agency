@@ -2155,7 +2155,7 @@ body:after {
 }
 
 .feature-nav__item--left::before {
-  content: url("../img/sprite/sprite.svg#review--arrow__link--left");
+  content: url("../img/sprite/sprite-icon.svg#arrow__link--left");
   margin-right: 20px;
 }
 
@@ -2165,7 +2165,7 @@ body:after {
 }
 
 .feature-nav__item--right::after {
-  content: url("../img/sprite/sprite.svg#review--arrow__link--right");
+  content: url("../img/sprite/sprite-icon.svg#arrow__link--right");
   margin-left: 20px;
 }
 
