@@ -2,6 +2,8 @@ var gulp = require('gulp');
 var sass = require('gulp-sass');
 var server = require('browser-sync');
 var svgSprite = require('gulp-svg-sprite');
+var svgstore = require("gulp-svgstore");
+var rename = require('gulp-rename');
 
 /*Task for Sass*/
 gulp.task('sass', function() { //Таск sass
@@ -24,17 +26,13 @@ gulp.task('server', function(){
 });
 
 // Only svg Sprite
-gulp.task('svgSprite', function () {
-    return gulp.src('source/img/**/*.svg') // svg files for sprite
-        .pipe(svgSprite({
-                mode: {
-                    stack: {
-                        sprite: "../sprite/sprite.svg"  //sprite file name
-                    }
-                },
-            }
-        ))
-        .pipe(gulp.dest('source/img/'));
+gulp.task("spritesvg", function () {
+  return gulp.src("source/img/**/*.svg")
+    .pipe(svgstore({
+      inlineSvg: true
+  }))
+    .pipe(rename("sprite-icon.svg"))
+    .pipe(gulp.dest("source/img/sprite"));
 });
 
 gulp.task('start', gulp.series('sass', 'server'));
