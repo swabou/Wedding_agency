@@ -222,3 +222,7 @@
     border: 1px solid #fff;
     outline: none;
 }
+
+@mixin z-index {
+    z-index: 2;
+}

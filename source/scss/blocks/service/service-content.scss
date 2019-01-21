@@ -86,3 +86,9 @@
         @include focus-link;
     }
 }
+
+.service-content__headline,
+.service-content__desc,
+.service-content__link {
+    @include z-index;
+}
