@@ -1,7 +1,7 @@
 .question {
     width: 100%;
 
-    background: linear-gradient(rgba(142, 104, 139, .7), rgba(142, 104, 139, .7)),
+    background: linear-gradient($background-question, $background-question),
         url('../img/index/question-form__img--background.jpg');
 }
 

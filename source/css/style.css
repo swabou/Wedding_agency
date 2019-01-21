@@ -1329,11 +1329,11 @@ body:after {
 }
 
 .slider-artists .slick-next::before {
-  content: url("../img/sprite/sprite.svg#index--slider-artists__img--arrow-right");
+  content: url("../img/index/slider-artists__img--arrow-right.svg");
 }
 
 .slider-artists .slick-prev::before {
-  content: url("../img/sprite/sprite.svg#index--slider-artists__img--arrow-left");
+  content: url("../img/index/slider-artists__img--arrow-left.svg");
 }
 
 .content-slide {

@@ -29,11 +29,15 @@ $crimson: #e54b97;
 $eggplant: #755671;
 $eggplant--dark: #4b334c;
 $emerald: #60dccf;
-$purple-shadow: rgba(137, 122, 140, .3);
+$purple-shadow: rgba(137, 122, 140, 0.3);
+$purple-shadow--dark: rgba(123, 107, 126, 0.7);
+$purple-shadow--light: rgba(142, 104, 139, 0.7);
 
 // COLORS ITEM
 $background-color: $white;
 $shadow-card: $purple-shadow;
+$content-hover: $purple-shadow--dark;
+$background-question: $purple-shadow--light;
 $nav-link: $brown;
 $logo: $purple;
 $picture-link: $peach;
