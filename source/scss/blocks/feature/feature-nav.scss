@@ -37,7 +37,7 @@
 
 
         &::before {
-        content: url('../img/index/slider-artists__img--arrow-left.svg');
+        content: url('../img/review/arrow__link--left.svg');
 
         margin-right: 20px;
     }
@@ -47,7 +47,7 @@
         left: 14px;
         top: 16px;
         &::after {
-            content: url('../img/index/slider-artists__img--arrow-right.svg');
+            content: url('../img/review/arrow__link--right.svg');
 
             margin-left: 20px;
         }
