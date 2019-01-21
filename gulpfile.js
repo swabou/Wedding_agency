@@ -6,6 +6,7 @@ var svgstore = require("gulp-svgstore");
 var rename = require('gulp-rename');
 var autoprefixer = require("autoprefixer");
 var imagemin = require("gulp-imagemin");
+var cleancss = require('gulp-clean-css');
 
 /*Task for Sass*/
 gulp.task('sass', function() { //Таск sass
