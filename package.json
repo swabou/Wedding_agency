@@ -19,15 +19,19 @@
   "devDependencies": {
     "autoprefixer": "^9.4.5",
     "browser-sync": "^2.26.3",
+    "csso": "^3.5.1",
     "gulp": "^4.0.0",
     "gulp-clean-css": "^4.0.0",
+    "gulp-concat-css": "^3.1.0",
     "gulp-imagemin": "^5.0.3",
     "gulp-rename": "^1.4.0",
     "gulp-sass": "^4.0.2",
     "gulp-svg-sprite": "^1.5.0",
-    "gulp-svgstore": "^7.0.1"
+    "gulp-svgstore": "^7.0.1",
+    "gulp-uglify": "^3.0.1"
   },
   "dependencies": {
+    "gulp-autoprefixer": "^6.0.0",
     "gulp-posthtml": "^3.0.4"
   }
 }
