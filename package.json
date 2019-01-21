@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/swabou/Wedding_agency#readme",
   "devDependencies": {
+    "autoprefixer": "^9.4.5",
     "browser-sync": "^2.26.3",
     "gulp": "^4.0.0",
     "gulp-rename": "^1.4.0",

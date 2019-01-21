@@ -4,6 +4,7 @@ var server = require('browser-sync');
 var svgSprite = require('gulp-svg-sprite');
 var svgstore = require("gulp-svgstore");
 var rename = require('gulp-rename');
+var autoprefixer = require("autoprefixer");
 
 /*Task for Sass*/
 gulp.task('sass', function() { //Таск sass
