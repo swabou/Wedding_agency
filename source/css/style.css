@@ -2177,7 +2177,7 @@ body:after {
 }
 
 .feature-nav__item--left::before {
-  content: url("../img/sprite/sprite-icon.svg#arrow__link--left");
+  content: url("../img/index/slider-artists__img--arrow-left.svg");
   margin-right: 20px;
 }
 
@@ -2187,7 +2187,7 @@ body:after {
 }
 
 .feature-nav__item--right::after {
-  content: url("../img/sprite/sprite-icon.svg#arrow__link--right");
+  content: url("../img/index/slider-artists__img--arrow-right.svg");
   margin-left: 20px;
 }
 
