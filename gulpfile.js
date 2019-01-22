@@ -73,7 +73,7 @@ gulp.task('html', function () {
     return gulp.src('source/*.html')
         .pipe(useref())
         .pipe(gulpif('*.js', uglify()))
-        .pipe(gulpif('*.css', minifyCss()))
+        .pipe(gulpif('*.css', cleancss()))
         .pipe(gulp.dest('build'));
 });
 
