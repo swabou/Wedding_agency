@@ -10,6 +10,8 @@ var cleancss = require('gulp-clean-css');
 var uglify = require('gulp-uglify');
 var csso = require('csso');
 var concatCss = require('gulp-concat-css');
+var gulpif = require('gulp-if');
+var useref = require('gulp-useref');
 
 /*Task for Sass*/
 gulp.task('sass', function() { //Таск sass
@@ -41,10 +43,6 @@ gulp.task("spritesvg", function () {
     .pipe(gulp.dest("source/img/sprite"));
 });
 
-
-
-
-
 // min css 
 gulp.task('cssmin', function () {
     gulp.src('source/css/*.css')
@@ -68,6 +66,15 @@ gulp.task('compress', function() {
   gulp.src('source/img/**/*')
   .pipe(imagemin())
   .pipe(gulp.dest('build/img'))
+});
+
+// Build
+gulp.task('html', function () {
+    return gulp.src('source/*.html')
+        .pipe(useref())
+        .pipe(gulpif('*.js', uglify()))
+        .pipe(gulpif('*.css', minifyCss()))
+        .pipe(gulp.dest('build'));
 });
 
 gulp.task('start', gulp.series('sass', 'server'));
