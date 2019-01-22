@@ -1,0 +1,1 @@
+"use strict";$(document).ready(function(){$("#phone").mask("+7 (999) 999-99-99")}),$(".slider-artists").slick({infinite:!0,slidesToShow:5,slidesToScroll:1}),$(".about-slider").slick({infinite:!0,slidesToShow:3,slidesToScroll:1});
