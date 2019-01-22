@@ -65,7 +65,7 @@ gulp.task('autoprefixer', function () {
 gulp.task('compress', function() {
   gulp.src('source/img/**/*')
   .pipe(imagemin())
-  .pipe(gulp.dest('build/img'))
+  .pipe(gulp.dest('source/img'))
 });
 
 // Build
