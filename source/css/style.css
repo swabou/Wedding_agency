@@ -1469,8 +1469,13 @@ body:after {
 .question-form__input:hover,
 .question-form__input:focus,
 .question-form__input:active {
-  outline: 4px solid #e4705b;
+  border-radius: 3px;
+  outline: 1px solid #e4705b;
   transition: all 0.3s;
+}
+
+.question-form__input:not(output):-moz-ui-invalid {
+  box-shadow: none;
 }
 
 .question-form__input::placeholder {
