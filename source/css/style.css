@@ -1921,8 +1921,10 @@ body:after {
   margin-right: 20px;
 }
 
-.content-block__img {
+.about .content-block__img {
   margin-right: 25px;
+  width: 461px;
+  height: 270px;
 }
 
 .content-block__title {
@@ -1971,11 +1973,11 @@ body:after {
 }
 
 .about-slider .slick-next::before {
-  content: url("../img/sprite/sprite.svg#index--slider-artists__img--arrow-right");
+  content: url("../img/review/arrow__link--right.svg");
 }
 
 .about-slider .slick-prev::before {
-  content: url("../img/sprite/sprite.svg#review--arrow__link--left");
+  content: url("../img/review/arrow__link--left.svg");
 }
 
 .bankroll {
