@@ -4,6 +4,8 @@
     background-position: center;
     background-repeat: no-repeat;
 
+    position: relative;
+
     &--review {
         background-image: url('../img/review/main-picture__review.jpg');
         z-index: 1;
@@ -14,7 +16,7 @@
     content: '';
     position: absolute;
     left: 0;
-    bottom: 145px;
+    bottom: -35px;
     background: url(../img/index/shadow__main-picture.jpg);
     width: 100%;
     height: 18px;
