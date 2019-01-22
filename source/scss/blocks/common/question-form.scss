@@ -34,11 +34,18 @@
     padding-left: 15px;
 }
 
+.question-form__input:valid:not(:placeholder-shown) {
+    outline: 2px solid $valid-color;
+}
+
+.question-form__input:invalid:not(:placeholder-shown) {
+    outline: 2px solid $invalid-color;
+}
+
 .question-form__input:hover,
 .question-form__input:focus,
 .question-form__input:active {
-    border-radius: 3px;
-    outline: 1px solid $peach;
+    outline: 2px solid $peach;
     transition: all 0.3s;
 }
 

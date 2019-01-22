@@ -1466,11 +1466,18 @@ body:after {
   padding-left: 15px;
 }
 
+.question-form__input:valid:not(:placeholder-shown) {
+  outline: 2px solid #50c878;
+}
+
+.question-form__input:invalid:not(:placeholder-shown) {
+  outline: 2px solid #f0826f;
+}
+
 .question-form__input:hover,
 .question-form__input:focus,
 .question-form__input:active {
-  border-radius: 3px;
-  outline: 1px solid #e4705b;
+  outline: 2px solid #e4705b;
   transition: all 0.3s;
 }
 
