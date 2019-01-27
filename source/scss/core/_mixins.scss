@@ -210,6 +210,14 @@
     color: #734089;
 }
 
+@mixin palette-text {
+    font-family: 'Open Sans';
+    font-size: 14px;
+    font-weight: 400;
+    font-style: italic;
+    line-height: 16px;
+}
+
 @mixin border-gradient($from, $to, $weight: 0) {
     $mix-main: mix($from, $to);
     $mix-sub-from: mix($mix-main, $from);

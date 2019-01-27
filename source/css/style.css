@@ -1631,10 +1631,6 @@ body:after {
   margin-top: 45px;
 }
 
-.content-presentation__sprite--review {
-  margin-top: 92px;
-}
-
 .presentation__item--review .content-presentation__headline {
   font-family: 'Open Sans';
   font-size: 28px;
@@ -1833,6 +1829,23 @@ body:after {
   margin-top: 16px;
   margin-right: 10px;
   margin-bottom: 25px;
+}
+
+.wrap-palette {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  margin-top: 75px;
+}
+
+.wrap-palette__text {
+  color: #734089;
+  margin-left: 15px;
+  font-family: 'Open Sans';
+  font-size: 14px;
+  font-weight: 400;
+  font-style: italic;
+  line-height: 16px;
 }
 
 .feedback {

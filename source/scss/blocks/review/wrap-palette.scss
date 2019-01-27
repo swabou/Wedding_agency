@@ -1,0 +1,15 @@
+.wrap-palette {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+
+    margin-top: 75px;
+}
+
+.wrap-palette__text {
+	color: $logo;
+
+	margin-left: 15px;
+
+	@include palette-text;
+}
