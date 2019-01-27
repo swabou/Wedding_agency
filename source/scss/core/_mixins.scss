@@ -232,6 +232,10 @@
     padding-left: 10px;
 }
 
+@mixin background-btn {
+    background: linear-gradient($old-peach, $ripe-peach);
+}
+
 @mixin hover-link {
     background-color: #e87561;
     transition: all 0.3s;
