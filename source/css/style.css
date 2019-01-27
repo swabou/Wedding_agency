@@ -1471,9 +1471,8 @@ body:after {
   border-radius: 3px;
   border: none;
   width: 95%;
-  padding-top: 10px;
-  padding-bottom: 10px;
   padding-left: 15px;
+  height: 38px;
 }
 
 .question-form__input:valid:not(:placeholder-shown) {
@@ -1495,7 +1494,7 @@ body:after {
   box-shadow: none;
 }
 
-.question-form__input::placeholder {
+.question-form__input::-webkit-placeholder {
   font-family: 'Open Sans';
   font-size: 14px;
   font-weight: 300;

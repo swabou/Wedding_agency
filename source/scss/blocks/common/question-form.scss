@@ -29,9 +29,9 @@
 
     width: 95%;
 
-    padding-top: 10px;
-    padding-bottom: 10px;
     padding-left: 15px;
+
+    height: 38px;
 }
 
 .question-form__input:valid:not(:placeholder-shown) {
@@ -53,7 +53,7 @@
     box-shadow: none;
 }
 
-.question-form__input::placeholder {
+.question-form__input::-webkit-placeholder {
     @include font-picture__link;
     color: $artist-name;
 }
