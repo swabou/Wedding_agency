@@ -22,7 +22,7 @@
 }
 
 .portfolio__link {
-    background-color: $picture-link;
+    @include background-btn;
     color: $background-color;
 
     @include font-picture__link;

@@ -42,7 +42,7 @@
 .content-picture__link {
     @include font-picture__link;
     color: $background-color;
-    background-color: $picture-link;
+    @include background-btn;
 
     text-decoration: none;
     text-transform: uppercase;

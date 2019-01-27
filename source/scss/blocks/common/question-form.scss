@@ -61,7 +61,7 @@
 .question-form__btn {
     @include font-picture__link;
     color: $background-color;
-    background-color: $picture-link;
+    @include background-btn;
 
     width: 100%;
 
