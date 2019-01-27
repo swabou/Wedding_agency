@@ -1205,6 +1205,14 @@ body:after {
   margin-right: 25px;
 }
 
+.social-list__link {
+  display: block;
+  border-radius: 50%;
+  overflow: hidden;
+  width: 28px;
+  height: 28px;
+}
+
 .social-list__img {
   fill: #937f7a;
 }
