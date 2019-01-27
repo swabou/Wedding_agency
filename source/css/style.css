@@ -2178,6 +2178,15 @@ body:after {
   align-items: center;
 }
 
+.signature {
+  font-family: 'Open Sans';
+  font-size: 14px;
+  font-weight: 400;
+  font-style: italic;
+  line-height: 16px;
+  color: #e4705b;
+}
+
 .container-feedback {
   width: 100%;
   background-color: #ffd1d0;
