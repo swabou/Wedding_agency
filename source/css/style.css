@@ -2048,10 +2048,12 @@ body:after {
 
 .about-slider .slick-next::before {
   content: url("../img/review/arrow__link--right.svg");
+  opacity: 1;
 }
 
 .about-slider .slick-prev::before {
   content: url("../img/review/arrow__link--left.svg");
+  opacity: 1;
 }
 
 .bankroll {
