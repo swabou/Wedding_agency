@@ -19,8 +19,10 @@
 
 .slider-artists .slick-next::before {
     content: url('../img/index/slider-artists__img--arrow-right.svg');
+    opacity: 1;
 }
 
 .slider-artists .slick-prev::before {
     content: url('../img/index/slider-artists__img--arrow-left.svg');
+    opacity: 1;
 }
