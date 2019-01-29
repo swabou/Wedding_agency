@@ -1,7 +1,9 @@
 .list-action__name {
-    border-bottom: 1px dotted $title;
-    width: fit-content;
-    width: -moz-fit-content;
+    // border-bottom: 1px dotted $title;
+    // width: fit-content;
+    // width: -moz-fit-content;
+
+    text-decoration: underline;
 
     @include font-plan__text;
     color: $title;
